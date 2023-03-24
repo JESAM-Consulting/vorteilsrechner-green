@@ -2,8 +2,8 @@
 <path d="M296 148C296 229.738 229.738 296 148 296C66.2619 296 0 229.738 0 148C0 66.2619 66.2619 0 148 0C229.738 0 296 66.2619 296 148ZM39.8539 148C39.8539 207.727 88.2726 256.146 148 256.146C207.727 256.146 256.146 207.727 256.146 148C256.146 88.2726 207.727 39.8539 148 39.8539C88.2726 39.8539 39.8539 88.2726 39.8539 148Z" fill="url(#paint0_radial_132_369)"/>
 <defs>
 <radialGradient id="paint0_radial_132_369" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(148 301.034) rotate(-90) scale(305.061)">
-<stop offset="0.0425163" stop-color="#E94B40"/>
-<stop offset="0.66568" stop-color="#F39200"/>
+<stop offset="0.0425163" stop-color="#BBDCB7"/>
+<stop offset="0.66568" stop-color="#a9bfa7"/>
 <stop offset="0.882084" stop-color="white"/>
 </radialGradient>
 </defs>

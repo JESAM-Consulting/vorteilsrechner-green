@@ -15,7 +15,7 @@
 </filter>
 <radialGradient id="paint0_radial_102_16" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(151 299) rotate(-90) scale(303)">
 <stop offset="0.0425163" stop-color="#E94B40"/>
-<stop offset="0.66568" stop-color="#F39200"/>
+<stop offset="0.66568" stop-color="#a9bfa7"/>
 <stop offset="0.882084" stop-color="white"/>
 </radialGradient>
 </defs>
