@@ -1,0 +1,1082 @@
+@import '../../styles/mixins/global.scss';
+
+.rootArea-content-left-alignment {
+    padding-left: max(80px, calc((100vw - 1380px) / 2));
+
+    @include breakpoint("max-xl") {
+        padding-left: 60px;
+    }
+
+    @include breakpoint(max-md) {
+        padding: 0;
+    }
+
+    @include breakpoint("max-sm") {
+        padding-left: 0px !important;
+    }
+
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 510px;
+        gap: 60px;
+        height: calc(100vh - 150px);
+
+        @include breakpoint(max-md) {
+            grid-template-columns: 1fr;
+            height: auto;
+        }
+
+        @include breakpoint("max-sm") {
+            gap: 40px;
+        }
+
+        .grid-items:nth-child(1) {
+            display: flex;
+            align-items: center;
+            position: relative;
+
+            @include breakpoint("max-xl") {
+                display: block;
+            }
+        }
+
+        .grid-items {
+            overflow-y: auto;
+
+            &::-webkit-scrollbar {
+                width: 0;
+            }
+
+            &:last-child {
+                overflow-y: hidden;
+            }
+
+            .second-steper-content-alignment {
+
+                padding: 0 0;
+
+                @include breakpoint("max-xl") {
+                    height: calc(100vh - 150px);
+                    padding: 40px 0;
+                }
+
+                @include breakpoint(max-md) {
+                    padding: 0px 40px 0 40px;
+                    height: auto;
+                }
+
+                @include breakpoint("max-sm") {
+                    height: auto;
+                }
+
+
+
+                .second-steper-content-heading {
+
+                    h1 {
+                        @include heading-8;
+                        color: var(--text-black);
+                        margin: 0 0 25px 0;
+
+                        @include breakpoint("max-sm") {
+                            margin: 0 0 25px 0;
+                        }
+                    }
+                }
+
+                .second-steper-form-alignment {
+
+                    .third-input-grid-alignment {
+                        @include grid;
+                        grid-template-columns: repeat(2, 1fr) 185px;
+                        gap: 20px;
+                        padding: 20px 0 0 0;
+
+                        @include breakpoint(max-lg) {
+                            grid-template-columns: 1fr;
+                        }
+
+                        @include breakpoint(max-md) {
+                            grid-template-columns: 1fr;
+                        }
+
+                        .button-alignment {
+                            // @include flex-end;
+                            position: relative;
+                            top: 26px;
+
+                            @include breakpoint("max-sm") {
+                                top: 0;
+                            }
+
+                            button {
+                                padding: 5px 20px;
+                                background-color: var(--primary-color);
+                                @include text2;
+                                font-weight: 500;
+                                border: none;
+                                font-size: 14px;
+                                @include pointer;
+                                letter-spacing: 1px;
+                                color: var(--white-color);
+                                min-width: 125px;
+                                border-radius: 9999px;
+
+                                @include breakpoint("max-xl") {
+                                    font-size: 12px;
+                                    min-width: 100%;
+                                    padding: 5px 10px;
+                                }
+
+                                @include breakpoint(max-lg) {
+
+                                    padding: 10px 20px;
+                                    min-width: 100%;
+
+                                }
+
+                                @include breakpoint(max-md) {
+
+                                    padding: 10px 20px;
+                                    min-width: 100%;
+
+                                }
+                            }
+                        }
+
+                        .input-tooltip-details {
+                            visibility: hidden;
+                            width: 208px;
+                            max-width: 208px;
+                            background-color: var(--tooltip-color);
+                            border-radius: 3px;
+                            padding: 5px 0;
+                            position: absolute;
+                            z-index: 1;
+                            // top: 150%;
+                            // bottom: -40px;
+                            // left: 50%;
+                            // margin-left: -60px;
+                            right: 0;
+                            left: -47px;
+                            top: -70px;
+
+                            @include breakpoint("max-md") {
+                                left: -225px;
+
+                                &::after {
+                                    left: 92% !important;
+                                }
+                            }
+
+                            &.second-tooltip {
+                                width: 200px;
+                                max-width: 200px;
+                                left: -177px;
+                                top: -65px;
+
+                                &::after {
+                                    left: 92%;
+                                }
+
+                            }
+
+                            &.dachflache-tooltips {
+                                width: 221px;
+                                max-width: 221px;
+
+                                &::after {
+                                    left: 25%;
+                                }
+
+                                @include breakpoint("max-md") {
+                                    left: -195px;
+                                }
+                            }
+
+                            // &.dcharts-tooltips {
+                            //     @include breakpoint("max-md") {
+                            //         left: -225px !important;
+
+                            //         &::after {
+                            //             left: 92% !important;
+                            //         }
+                            //     }
+
+                            //     left: -48px;
+
+
+                            //     &::after {
+                            //         left: 23%;
+                            //     }
+
+                            // }
+
+                            span {
+                                padding: 7px 10px;
+                                @include text-xxs;
+                                color: var(--tooltip-font-color);
+                                text-align: left;
+                                display: block;
+                            }
+
+                            &::after {
+                                // content: "";
+                                // position: absolute;
+                                // bottom: 100%;
+                                // left: 50%;
+                                // margin-left: -5px;
+                                // border-width: 5px;
+                                // border-style: solid;
+                                // border-color: transparent transparent var(--tooltip-color) transparent;
+
+                                content: "";
+                                position: absolute;
+                                top: 100%;
+                                left: 26%;
+                                margin-left: -5px;
+                                border-width: 5px;
+                                border-style: solid;
+                                border-color: var(--tooltip-color) transparent transparent transparent;
+                            }
+                        }
+
+                        .input-alignment2:hover {
+                            .input-tooltip-details {
+                                visibility: visible;
+                            }
+                        }
+
+
+                    }
+
+                    .two-grid-input-alignment {
+                        @include grid;
+                        grid-template-columns: repeat(2, 1fr);
+                        gap: 25px;
+                        margin: 25px 0 0 0;
+                        @include breakpoint(max-md) {
+                            grid-template-columns: 1fr;
+                        }
+
+                        .child-two-grid-input-alignment {
+                            display: grid;
+                            grid-template-columns: repeat(2, 1fr);
+
+                            @media (max-width: 1099px) {
+                                grid-template-columns: 1fr;
+                                gap: 24px !important;
+                            }
+
+                           }
+
+                        .compass-rangeBar-alignment {
+                            @include flex-center;
+                            justify-content: center;
+                            width: 260px;
+                            height: 260px;
+                            position: relative;
+
+                            input[type="range"] {
+                                -webkit-appearance: none;
+                                width: 100%;
+                                height: 15px;
+                                border-radius: 10px;
+                                outline: none;
+                                opacity: 0.7;
+                                -webkit-transition: .2s;
+                                transition: opacity .2s;
+                                background: transparent;
+                                border: 1px solid #b1b1b1;
+                                transform: rotate(-90deg);
+                                padding: 0;
+                                margin: 0;
+
+                                &:hover {
+                                    opacity: 1;
+                                }
+
+                                &::-webkit-slider-thumb {
+                                    -webkit-appearance: slider-vertical;
+                                    appearance: none;
+                                    width: 25px;
+                                    height: 25px;
+                                    border-radius: 50%;
+                                    background: var(--primary-color);
+                                    cursor: pointer;
+                                }
+
+                                &::-moz-range-thumb {
+                                    width: 25px;
+                                    height: 25px;
+                                    border-radius: 50%;
+                                    background: var(--primary-color);
+                                    cursor: pointer;
+                                }
+                            }
+
+                            .range-area-number-alignment {
+                                position: absolute;
+                                display: flex;
+                                justify-content: space-between;
+                                flex-direction: column;
+                                height: 100%;
+                                position: absolute;
+                                right: 35%;
+
+                                span {
+                                    @include text-sm;
+                                    color: #515151;
+
+                                    &.active {
+                                        font-weight: 700;
+                                    }
+                                }
+                            }
+                        }
+
+                        .range-chart-alignment {
+
+                            width: 226px;
+                            height: 224px;
+                            margin: auto;
+                            position: relative;
+
+                            @media (min-width:"900px") and (max-width:"1440px") {
+                                height: 245px;
+                            }
+
+                            @include breakpoint("max-sm") {
+                                margin: 10px auto;
+                                height: 224px;
+                            }
+
+                            .range-chart {
+                                img {
+                                    width: 86%;
+                                    height: 231px;
+
+                                    @media (min-width:"900px") and (max-width:"1440px") {
+                                        height: 240px;
+                                    }
+
+                                    @include breakpoint("max-sm") {
+                                        height: 231px;
+                                    }
+                                }
+
+                            }
+
+                            .range-number-alignment {
+                                position: absolute;
+                                top: 0;
+                                right: 0;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: space-between;
+                                height: 85%;
+                                margin-right: 10px;
+
+                                @include breakpoint("max-sm") {
+                                    height: 87%;
+                                }
+
+                                button {
+                                    background: transparent;
+                                    border: none;
+                                    @include pointer;
+                                    transition: all 0.5s ease-in-out;
+                                    font-family: 'Barlow', sans-serif;
+                                    line-height: 7px;
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    letter-spacing: 0.02em;
+                                    color: #515151;
+                                    width: 40px;
+                                    text-align: right;
+
+                                    @media (min-width:"900px") and (max-width:"1440px") {
+                                        font-size: 11px;
+                                        line-height: 12px;
+                                    }
+
+                                    @include breakpoint("max-sm") {
+                                        font-size: 11px;
+                                        line-height: 12px;
+                                    }
+                                }
+                            }
+                        }
+
+                        .chart-option-alignment {
+
+
+                            .child-input-grid-alignment {
+                                @include grid;
+                                grid-template-columns: repeat(2, 1fr);
+                                gap: 10px;
+
+                                .roots-option-alignment {
+                                    border: 1px solid var(--primary-color);
+                                    padding: 15px 0;
+                                    @include flex-center;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    gap: 10px;
+                                    @include pointer;
+
+                                    &.active {
+                                        background: var(--primary-color);
+
+                                        .roots-option-name-alignment {
+                                            p {
+                                                color: var(--white-color);
+                                            }
+                                        }
+                                    }
+
+                                    img {
+                                        // width: 75px;
+                                        // height: 45px;
+                                        // height: 60px;
+                                        object-fit: cover;
+                                        max-width: 67px;
+                                        max-width: 67px;
+                                        max-height: 49px;
+                                    }
+
+                                    .roots-option-name-alignment {
+                                        p {
+                                            @include text;
+                                            color: var(--text-black);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .compass-details-section {
+                            .compaas-relative-alignment {
+
+                                .compassImg-alignment {
+                                    @include flex-center;
+                                    justify-content: center;
+                                    width: 280px;
+                                    height: 280px;
+                                    position: relative;
+                                    margin: auto;
+                                    top: -15px;
+                                    @include breakpoint("max-md") {
+                                        top: 0;
+                                    }
+                                    @include breakpoint("max-sm") {
+                                        top: 0;
+                                    }
+
+                                    .compassImg-round-alignment {
+                                        width: 230px;
+                                        position: relative;
+
+                                        img {
+                                            margin: auto;
+                                            width: 85%;
+                                            // height: 50%;
+                                            display: block;
+
+                                        }
+
+                                        .child-img-alignment {
+                                            position: absolute;
+                                            top: 1.5px;
+                                            right: 0;
+
+                                            @include breakpoint("max-sm") {
+                                                top: 0;
+                                            }
+
+                                            img {
+
+                                                &.animation {
+
+                                                    // transform: rotate(140deg);
+                                                    animation: circle 2s linear;
+                                                    // transition: 2s linear;
+                                                }
+                                            }
+                                        }
+                                    }
+
+
+                                    .compass_alignment {
+
+                                        button {
+                                            position: absolute;
+                                            border: 1px solid var(--primary-color);
+                                            border-radius: 50%;
+                                            width: auto;
+                                            height: 25px;
+                                            // color: var(--primary-color);
+                                            background: transparent;
+                                            @include pointer;
+                                            transition: all 0.5s ease-in-out;
+                                            @include text-sm;
+                                            color: #515151;
+                                            border: none;
+
+                                            &.active {
+                                                // background: var(--primary-color);
+                                                // color: var(--white-color);
+                                                // font-weight: 700;
+                                            }
+
+                                            &.btn-1 {
+                                                top: 14px;
+                                                right: 128px;
+
+                                                @include breakpoint("max-sm") {
+                                          
+                                                right: 123px;
+                                                }
+
+                                                // @include breakpoint("max-lg") {
+                                                //     top: 10px;
+                                                //     right: 140px;
+                                                // }
+                                            }
+
+                                            &.btn-2 {
+                                                top: 46px;
+                                                left: 210px;
+
+                                                @include breakpoint("max-sm") {
+
+                                                    top: 43px;
+
+                                                }
+
+                                                // @include breakpoint("max-lg") {
+                                                //     top: 48px;
+                                                //     left: 228px;
+                                                // }
+
+                                            }
+
+
+                                            &.btn-3 {
+                                                top: 130px;
+                                                right: 15px;
+
+                                                @include breakpoint("max-sm") {
+                                                    top: 128px;
+                                                    right: 7px;
+
+                                                }
+
+                                            }
+
+                                            &.btn-4 {
+                                                top: 210px;
+                                                right: 35px;
+
+                                                @include breakpoint("max-sm") {
+
+                                                    right: 42px;
+
+                                                }
+
+                                                // @include breakpoint("max-lg") {
+                                                //     right: 50px;
+                                                //     top: 210px;
+                                                // }
+                                            }
+
+                                            &.btn-5 {
+                                                top: 242px;
+                                                left: 127px;
+
+                                                @include breakpoint("max-sm") {
+
+                                                    left: 120px;
+
+                                                }
+
+                                                // @include breakpoint("max-lg") {
+                                                //     left: 140px;
+                                                //     top: 240px;
+                                                // }
+
+                                            }
+
+                                            &.btn-6 {
+                                                right: 204px;
+                                                top: 212px;
+
+                                                // @include breakpoint("max-lg") {
+                                                //     top: 214px;
+                                                //     right: 222px;
+                                                // }
+                                            }
+
+                                            &.btn-7 {
+                                                top: 128px;
+                                                right: 238px;
+
+                                                // @include breakpoint("max-lg") {
+                                                //     top: 126px;
+                                                //     left: -2px;
+                                                // }
+                                            }
+
+
+                                            &.btn-8 {
+                                                right: 196px;
+                                                bottom: 215px;
+
+
+                                            }
+
+                                            &.btn-9 {
+
+                                                top: 34px;
+                                                right: 92px;
+
+                                                @include breakpoint("max-sm") {
+                                                    right: 98px;
+                                                }
+
+                                                &.box-alignment {
+                                                    width: 7px;
+                                                    height: 7px;
+                                                    padding: 0;
+                                                    background-color: #515151;
+                                                    ;
+                                                    border-radius: 50%;
+                                                }
+                                            }
+
+                                            &.btn-10 {
+                                                top: 96px;
+                                                right: 30px;
+
+                                                &.box-alignment {
+                                                    width: 7px;
+                                                    height: 7px;
+                                                    padding: 0;
+                                                    background-color: #515151;
+                                                    ;
+                                                    border-radius: 50%;
+                                                }
+                                            }
+
+                                            &.btn-11 {
+
+                                                top: 179px;
+                                                right: 32px;
+
+
+                                                &.box-alignment {
+                                                    width: 7px;
+                                                    height: 7px;
+                                                    padding: 0;
+                                                    background-color: #515151;
+                                                    ;
+                                                    border-radius: 50%;
+                                                }
+                                            }
+
+                                            &.btn-12 {
+                                                bottom: 34px;
+                                                right: 94px;
+
+                                                &.box-alignment {
+                                                    width: 7px;
+                                                    height: 7px;
+                                                    padding: 0;
+                                                    background-color: #515151;
+                                                    ;
+                                                    border-radius: 50%;
+                                                }
+                                            }
+
+                                            &.btn-13 {
+                                                bottom: 34px;
+                                                left: 92px;
+
+                                                &.box-alignment {
+                                                    width: 7px;
+                                                    height: 7px;
+                                                    padding: 0;
+                                                    background-color: #515151;
+                                                    ;
+                                                    border-radius: 50%;
+                                                }
+                                            }
+
+                                            &.btn-14 {
+
+                                                left: 32px;
+                                                bottom: 94px;
+
+
+                                                &.box-alignment {
+                                                    width: 7px;
+                                                    height: 7px;
+                                                    padding: 0;
+                                                    background-color: #515151;
+                                                    ;
+                                                    border-radius: 50%;
+                                                }
+                                            }
+
+                                            &.btn-15 {
+                                                left: 34px;
+                                                top: 97px;
+
+                                                @include breakpoint("max-sm") {
+                                                    left: 32px;
+                                                    top: 94px;
+                                                }
+
+                                                &.box-alignment {
+                                                    width: 7px;
+                                                    height: 7px;
+                                                    padding: 0;
+                                                    background-color: #515151;
+                                                    border-radius: 50%;
+                                                }
+                                            }
+
+                                            &.btn-16 {
+                                                top: 33px;
+                                                left: 90px;
+
+                                                @include breakpoint("max-sm") {
+
+                                                    top: 33px;
+                                                    left: 92px;
+
+                                                }
+
+
+
+                                                &.box-alignment {
+                                                    width: 7px;
+                                                    height: 7px;
+                                                    padding: 0;
+                                                    background-color: #515151;
+                                                    // ;
+                                                    border-radius: 50%;
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                }
+                            }
+
+                            .compass-button-alignment {
+                                margin: 15px 0 0 0;
+
+                                @include breakpoint("max-xl") {
+                                    margin: 15px 0 30px 0;
+                                }
+
+                                @include breakpoint("max-sm") {
+                                    margin: 40px 0 0 0;
+                                }
+
+                                .compass-button-grid {
+                                    @include flex-center;
+                                    justify-content: flex-end;
+                                    position: absolute;
+                                    bottom: 24px;
+                                    right: 0;
+                                    gap: 20px;
+
+                                    @include breakpoint("max-sm") {
+                                        position: relative;
+                                        padding: 30px 0 0 0;
+                                    }
+
+                                    button {
+
+                                        background-color: var(--primary-color);
+                                        @include text2;
+                                        font-weight: 500;
+                                        border: none;
+                                        @include pointer;
+                                        letter-spacing: 1px;
+                                        color: var(--white-color);
+                                        border-radius: 9999px;
+                                        @include global-button-style;
+
+                                        @include breakpoint(max-lg) {
+                                            width: 100%;
+                                        }
+
+                                        @include breakpoint(max-md) {
+                                            width: 100%;
+                                        }
+
+                                        @include breakpoint("max-sm") {
+                                            padding: 15px 9px;
+                                            font-size: 12px;
+                                        }
+
+                                        &:first-child {
+                                            border: 1px solid var(--primary-color);
+                                            color: var(--primary-color);
+                                            background: transparent;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .input-tooltip-details {
+                            visibility: hidden;
+                            width: 208px;
+                            max-width: 208px;
+                            background-color: var(--tooltip-color);
+                            border-radius: 3px;
+                            padding: 5px 0;
+                            position: absolute;
+                            z-index: 1;
+                            // top: 150%;
+                            // bottom: -40px;
+                            // left: 50%;
+                            // margin-left: -60px;
+                            right: 0;
+                            left: -47px;
+                            top: -70px;
+
+                            @include breakpoint("max-md") {
+                                left: -185px;
+
+                                &::after {
+                                    left: 92% !important;
+                                }
+                            }
+
+                            &.second-tooltip {
+                                // width: 200px;
+                                // max-width: 200px;
+                                // left: -177px;
+                                // top: -65px;
+
+                            }
+
+                            &.dcharts-tooltips {
+                                left: -45px;
+                                width: 225px;
+                                max-width: 225px;
+
+                                &::after {
+                                    left: 23%;
+                                }
+
+                                @include breakpoint("max-md") {
+                                    left: -172px;
+
+                                    &::after {
+                                        left: 80% !important;
+                                    }
+                                }
+                            }
+
+                            &.dachneigung-tooltips {
+                                left: -193px;
+                                width: 262px;
+                                max-width: 262px;
+
+                                @include breakpoint("max-md") {
+                                    left: -142px;
+
+                                    &::after {
+                                        left: 58% !important;
+                                    }
+                                }
+
+                                &::after {
+                                    left: 77%;
+                                }
+                            }
+
+                            span {
+                                padding: 7px 10px;
+                                @include text-xxs;
+                                color: var(--tooltip-font-color);
+                                text-align: left;
+                                display: block;
+                            }
+
+                            &::after {
+                                // content: "";
+                                // position: absolute;
+                                // bottom: 100%;
+                                // left: 50%;
+                                // margin-left: -5px;
+                                // border-width: 5px;
+                                // border-style: solid;
+                                // border-color: transparent transparent var(--tooltip-color) transparent;
+
+                                content: "";
+                                position: absolute;
+                                top: 100%;
+                                left: 26%;
+                                margin-left: -5px;
+                                border-width: 5px;
+                                border-style: solid;
+                                border-color: var(--tooltip-color) transparent transparent transparent;
+                            }
+                        }
+
+                        .input-alignment2:hover {
+                            .input-tooltip-details {
+                                visibility: visible;
+                            }
+                        }
+                    }
+                }
+
+            }
+
+            .main-image-style {
+                height: 100%;
+                width: 100%;
+                position: relative;
+
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    display: block;
+
+                    @include breakpoint(max-md) {
+                        height: 241px;
+                    }
+                }
+            }
+
+        }
+
+        .flex-alignment {
+            @include flex;
+            gap: 5px;
+        }
+    }
+}
+
+.input-dropdown-hidden {
+    max-height: 0px;
+    overflow: hidden;
+    transition: .3s ease-in-out;
+}
+
+.input-dropdown-show {
+    max-height: 250px;
+    overflow: hidden;
+    transition: .3s ease-in-out;
+}
+
+.input-dropdown {
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+    border-radius: 4px;
+
+    .input-dropdown-design {
+        border: 1px solid var(--border-color);
+        border-radius: 4px;
+
+        span {
+            padding: 10px 15px;
+            @include text;
+            color: var(--text-black);
+            display: block;
+            @include pointer;
+            background-color: var(--white-color);
+
+            &:hover {
+                background-color: var(--border-color);
+            }
+        }
+    }
+}
+
+.error-alignment {
+    span {
+        font-family: 'Barlow', sans-serif;
+        font-size: 11px;
+        font-weight: 400;
+        color: #ef817b;
+
+    }
+}
+
+.mbx182f1fe4--ResultsAttribution {
+    display: none;
+}
+
+// @keyframes circle {
+//     0% {
+//         transform: rotate(0deg);
+//     }
+
+//     100% {
+//         transform: rotate(180deg);
+//     }
+// }
+
+.compass-alignment {
+    gap: 23px !important;
+}
+
+.skeleton-loader {
+    width: 280px;
+    height: 280px;
+    border-radius: 10%;
+}
+
+.o-content-align {
+    position: relative;
+    top: 8px;
+
+    @include breakpoint("max-xl") {
+        top: 0;
+    }
+}
+
+.top-five-content-align {
+    position: relative;
+    top: 5px;
+
+    @include breakpoint("max-xl") {
+        top: 0;
+    }
+}
+
+.top-four-content-align {
+    position: relative;
+    top: 4px;
+
+    @include breakpoint("max-xl") {
+        top: 0;
+    }
+}
+
+
+
+.child-two-grid-input-alignment-first-items1 {
+    order: 2;
+}
+
+.child-two-grid-input-alignment-first-items2 {
+    order: 1;
+}
+
+.compass-alignment {
+    overflow-x: hidden !important;
+}

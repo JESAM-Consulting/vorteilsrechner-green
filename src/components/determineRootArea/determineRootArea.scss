@@ -1,0 +1,260 @@
+@import "../../styles/mixins/global.scss";
+
+.rootArea-determine-content-left-alignment {
+  padding-left: max(80px, calc((100vw - 1380px) / 2));
+
+  @include breakpoint("max-xl") {
+    padding-left: 60px;
+  }
+
+  @include breakpoint(max-md) {
+    padding: 0;
+  }
+
+  @include breakpoint("max-sm") {
+    padding-left: 0px !important;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 510px;
+    gap: 60px;
+    height: calc(100vh - 150px);
+
+    @include breakpoint(max-md) {
+      height: auto;
+      grid-template-columns: 1fr;
+    }
+
+    @include breakpoint("max-sm") {
+      gap: 40px;
+    }
+
+    .grid-items {
+
+      overflow-y: scroll;
+
+      &::-webkit-scrollbar {
+        width: 0;
+      }
+
+      &:last-child {
+        overflow-y: hidden;
+      }
+
+      .second-steper-determine-content-alignment {
+        padding: 40px 0;
+
+        @include breakpoint("max-xl") {
+          padding: 40px 0;
+        }
+
+        @include breakpoint("max-xl") {
+          padding: 40px 0;
+        }
+
+        @include breakpoint(max-md) {
+          padding: 60px 40px 0 40px;
+        }
+
+        @include breakpoint("max-sm") {
+          padding: 0 30px;
+        }
+
+        .second-steper-determine-content-heading {
+
+          h1 {
+            @include heading-8;
+            color: var(--text-black);
+            margin: 0 0 26px 0;
+
+            @include breakpoint("max-xl") {
+              margin: 0 0 16px 0;
+            }
+          }
+
+          p {
+            @include text2;
+            color: var(--notes-color);
+            // color: #bcbcbc;
+          }
+        }
+
+        .determine-map-area-alignment {
+          height: 100%;
+          width: 100%;
+          margin: 10px 0 0 0;
+          position: relative;
+
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+
+        .determine-area-option-alignment {
+          margin: 10px 0 0 0;
+          @include flex-center;
+          gap: 60px;
+
+          @include breakpoint("max-sm") {
+            margin: 20px 0;
+          }
+
+          .determine-area-option-details {
+            @include flex-center;
+            gap: 5px;
+            @include pointer;
+
+            i {
+              color: lightgray;
+
+              &.plus {
+                color: var(--primary-color);
+              }
+            }
+
+            span {
+              @include text-sm-bolder;
+              color: var(--text-black);
+
+              &.plus-option {
+                color: var(--primary-color);
+              }
+            }
+          }
+        }
+
+        .compass-button-alignment {
+          margin: 10px 0 0 0;
+
+          @include breakpoint("max-xl") {
+            margin: 5px 0 0 0;
+          }
+
+          .compass-button-grid {
+            @include flex-center;
+            justify-content: flex-end;
+            gap: 20px;
+
+            button {
+              padding: 10px;
+              background-color: var(--primary-color);
+              @include text2;
+              font-size: 14px;
+              font-weight: 500;
+              border: none;
+              @include pointer;
+              letter-spacing: 1px;
+              color: var(--white-color);
+
+              min-width: 150px;
+
+              border-radius: 9999px;
+
+              &:first-child {
+                border: 1px solid var(--primary-color);
+                color: var(--primary-color);
+                background: transparent;
+              }
+            }
+          }
+        }
+      }
+
+      .main-image-style {
+        height: 100%;
+        width: 100%;
+        position: relative;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          display: block;
+
+          @include breakpoint(max-md) {
+            height: 241px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// .mapboxgl-ctrl-attrib-button {
+//   display: none;
+// }
+
+// .mapboxgl-ctrl-attrib-inner {
+//   display: none;
+// }
+
+.mapboxgl-ctrl-group {
+  border: 1px solid rgb(255, 165, 0);
+  padding: 1px;
+  background: rgb(0 0 0 / 0%);
+  border-radius: 50px;
+  position: absolute;
+  top: 12px;
+  /* display: inline-grid; */
+  margin-left: 5px;
+}
+
+.mapbox-gl-draw_ctrl-draw-btn {
+  border: 1px solid #fff;
+  background-color: transparent;
+  border-radius: 50px;
+  padding: 20px;
+  color: #fff;
+  cursor: pointer;
+  margin: 3px;
+  background-color: #fff;
+}
+
+.mapbox-gl-draw_ctrl-draw-btn.mapbox-gl-draw_uncombine,
+.mapbox-gl-draw_ctrl-draw-btn.mapbox-gl-draw_combine,
+.mapbox-gl-draw_ctrl-draw-btn.mapbox-gl-draw_line,
+.mapbox-gl-draw_ctrl-draw-btn.mapbox-gl-draw_point {
+  display: none;
+}
+
+.mapbox-gl-draw_polygon {
+  background-image: url("../../assets/Icons/plus.svg") !important;
+  //   background-image: url("../../assets/image/pls.svg") !important;
+
+}
+
+.mapbox-gl-draw_trash {
+  background-image: url("../../assets/Icons/remove-new-icon.svg") !important;
+}
+
+.mapboxgl-ctrl-group button+button {
+  border: none;
+}
+
+.mapboxgl-ctrl-top-left.mapboxgl-ctrl {
+  margin: 25px 0 0 605px;
+  float: left;
+  /* margin-left: 40%; */
+  display: flex;
+  height: 29px;
+  align-items: center;
+}
+
+// .mapboxgl-ctrl-group button {
+//   width: 29px !important;
+//   height: 29px !important;
+//   display: block !important;
+//   /* padding: 0; */
+//   background-color: rgb(255 255 255) !important ;
+//   outline: none !important;
+//   border: 0 !important;
+//   box-sizing: border-box !important;
+//   /* background-color: rgb(0 0 0 / 0%); */
+//   cursor: pointer !important;
+// }
+
+.mapboxgl-ctrl-attrib {
+  display: none;
+}

@@ -1,0 +1,11 @@
+@mixin text-center {
+    text-align: center;
+}
+
+@mixin pointer {
+    cursor: pointer;
+}
+
+@mixin block {
+    display: block;
+}

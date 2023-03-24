@@ -1,0 +1,380 @@
+@import '../../styles/mixins/global.scss';
+
+.more-option-content-left-alignment {
+    padding-left: max(80px, calc((100vw - 1380px) / 2));
+
+    @include breakpoint("max-xl") {
+        padding-left: 60px;
+    }
+
+    @include breakpoint(max-md) {
+        padding: 0;
+    }
+
+    @include breakpoint("max-sm") {
+        padding-left: 0px !important;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 510px;
+        gap: 60px;
+        height: calc(100vh - 150px);
+
+        @include breakpoint(max-md) {
+            grid-template-columns: 1fr;
+            height: auto;
+        }
+
+        @include breakpoint("max-sm") {
+            gap: 40px;
+        }
+
+        .grid-items {
+            overflow-y: auto;
+            position: relative;
+
+            &::-webkit-scrollbar {
+                width: 0;
+            }
+
+            &:last-child {
+                overflow-y: hidden;
+            }
+
+            .more-option-content-alignment {
+                padding: 30px 0;
+
+                @include breakpoint("max-xl") {
+                    padding: 40px 0;
+                }
+
+                @include breakpoint(max-md) {
+                    padding: 60px 40px 0 40px;
+                }
+
+                @include breakpoint("max-sm") {
+                    padding: 0 30px;
+                }
+
+                .more-option-content-heading {
+
+                    h1 {
+                        @include heading-8;
+                        color: var(--text-black);
+                        margin: 0 0 25px 0;
+                    }
+
+                    p {
+                        @include text-bolder;
+                        // color: var(--text-black);
+                        color: #5e5e5e;
+                    }
+                }
+
+                .more-option-content-details-alignment {
+                    margin: 40px 0;
+                    @include flex-between;
+                    align-items: flex-start;
+
+                    @include breakpoint("max-xl") {
+                        margin: 40px 0 0 0;
+                    }
+
+                    @include breakpoint(max-lg) {
+                        flex-wrap: wrap;
+                    }
+
+                    @include breakpoint(max-md) {
+                        flex-wrap: wrap;
+                    }
+
+                    .more-option-checkbox-alignment {
+                        @include flex-column;
+                        gap: 40px;
+
+                        @include breakpoint(max-lg) {
+                            order: 2;
+                            width: 100%;
+                        }
+
+                        @include breakpoint(max-md) {
+                            order: 2;
+                            width: 100%;
+                        }
+
+                        .more-option-select-alignment {
+                            @include flex-center;
+                            gap: 5px;
+                            // position: relative;
+
+                            // width: 211px;
+
+                            @include breakpoint("max-md") {
+                                width: 100%;
+                            }
+
+                            input {
+                                width: 18px;
+                                height: 18px;
+                            }
+
+                            label {
+                                @include text-bold;
+                                color: #474747;
+                            }
+
+                            .checkbox-input-alignment {
+                                @include pointer;
+                                position: relative;
+                                display: block;
+                                top: 2px;
+                                @include breakpoint("max-md") {
+                                    top: 0;
+                                }
+                                i {
+                                    color: lightgray;
+                                    font-size: 14px;
+                                    display: block;
+                                }
+
+                                .more-option-input-tooltip-details {
+                                    visibility: hidden;
+                                    width: 275px;
+                                    max-width: 275px;
+                                    background-color: var(--tooltip-color);
+                                    border-radius: 3px;
+                                    padding: 5px 0;
+                                    position: absolute;
+                                    z-index: 1;
+                                    // top: 150%;
+                                    // bottom: -40px;
+                                    // left: 50%;
+                                    // margin-left: -60px;
+                                    right: 0;
+                                    left: -88px;
+                                    top: -81px;
+
+                                    @include breakpoint("max-md") {
+                                        left: -245px;
+                                        top: -83px;
+
+                                        &::after {
+                                            left: 92% !important;
+                                        }
+                                    }
+
+                                    &.warmey-tooltips {
+                                        left: -76px;
+
+                                        &::after {
+                                            left: 31%;
+                                        }
+
+                                        @include breakpoint("max-md") {
+                                            left: -245px;
+                                            top: -83px;
+
+                                            &::after {
+                                                left: 92% !important;
+                                            }
+                                        }
+                                    }
+
+                                    &.e-mobility-tooltips {
+                                        width: 400px;
+                                        max-width: 400px;
+                                        right: 10px;
+                                        top: -100px;
+
+                                        &::after {
+                                            left: 24%;
+                                        }
+
+                                        @include breakpoint("max-md") {
+                                            left: -290px;
+                                            top: -118px;
+                                            width: 319PX;
+                                            max-width: 319px;
+
+                                            &::after {
+                                                left: 93% !important;
+                                            }
+                                        }
+                                    }
+
+                                    span {
+                                        padding: 7px 10px;
+                                        @include text-xxs;
+                                        color: var(--tooltip-font-color);
+                                        text-align: left;
+                                        display: block;
+                                    }
+
+                                    &::after {
+                                        // content: "";
+                                        // position: absolute;
+                                        // bottom: 100%;
+                                        // left: 50%;
+                                        // margin-left: -5px;
+                                        // border-width: 5px;
+                                        // border-style: solid;
+                                        // border-color: transparent transparent var(--tooltip-color) transparent;
+
+                                        content: "";
+                                        position: absolute;
+                                        top: 100%;
+                                        left: 35%;
+                                        margin-left: -5px;
+                                        border-width: 5px;
+                                        border-style: solid;
+                                        border-color: var(--tooltip-color) transparent transparent transparent;
+                                    }
+                                }
+
+                            }
+
+                            .checkbox-input-alignment:hover {
+                                .more-option-input-tooltip-details {
+                                    visibility: visible;
+                                }
+                            }
+                        }
+
+                        // .more-option-select-alignment:hover {
+                        //     .more-option-input-tooltip-details {
+                        //         visibility: visible;
+                        //     }
+                        // }
+                    }
+
+                    .more-option-img-alignment {
+                        padding: 0 40px 0 0;
+
+                        @include breakpoint(max-lg) {
+                            order: 1;
+                            margin: 0 0 22px 0;
+                        }
+
+                        @include breakpoint(max-md) {
+                            order: 1;
+                            margin: 0 0 22px 0;
+                        }
+
+                        @include breakpoint("max-sm") {
+                            padding: 0;
+                        }
+
+                        img {
+                            height: calc(400px - 70px);
+                            width: calc(600px - 70px);
+                            display: block;
+
+                            @include breakpoint("max-xl") {
+                                height: 264px;
+                                width: 433px;
+                                display: block;
+                            }
+
+                            @include breakpoint(max-sm) {
+                                width: 100%;
+                                height: 213px;
+                                display: block;
+                            }
+
+                            @include breakpoint(max-sm) {
+                                width: 100%;
+                                height: 213px;
+                                display: block;
+                            }
+                        }
+                    }
+                }
+
+                .more-option-button-alignment {
+                    margin: 30px 0 0 0;
+                    position: absolute;
+                    bottom: 24px;
+                    right: 0;
+
+                    @include breakpoint("max-xl") {
+                        position: absolute;
+                        bottom: 24px;
+                        right: 0;
+                    }
+
+                    @include breakpoint("max-md") {
+                        position: relative;
+                        bottom: 0;
+
+                    }
+
+                    @include breakpoint("max-sm") {
+                        position: relative;
+                        bottom: 0;
+                        margin: 40px 0 0 0;
+                    }
+
+                    .more-option-button-grid {
+                        @include flex-center;
+                        justify-content: flex-end;
+                        gap: 20px;
+
+                        button {
+
+                            background-color: var(--primary-color);
+                            @include text2;
+                            font-weight: 500;
+
+                            border: none;
+                            @include pointer;
+                            letter-spacing: 1px;
+                            color: var(--white-color);
+                            @include global-button-style;
+                            border-radius: 9999px;
+
+                            @include breakpoint("max-sm") {
+                                padding: 15px 9px;
+                                font-size: 12px;
+                            }
+
+                            &:first-child {
+                                border: 1px solid var(--primary-color);
+                                color: var(--primary-color);
+                                background: transparent;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .main-image-style {
+                height: 100%;
+                width: 100%;
+                position: relative;
+
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    display: block;
+
+                    @include breakpoint(max-md) {
+                        height: 241px;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+.error-alignment {
+    span {
+        font-family: 'Barlow', sans-serif;
+        font-size: 11px;
+        font-weight: 400;
+        color: #ef817b;
+    }
+}

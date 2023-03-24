@@ -1,0 +1,506 @@
+.input {
+    label {
+        @include text-sm;
+        font-weight: 600;
+        font-size: 13px;
+        color: var(--label-color);
+        padding: 0 0 7px 0;
+        display: block;
+   
+
+        span {
+            &.contact-alignment {
+                font-size: 15px;
+                @include breakpoint("max-sm") {
+                    font-size: 14px !important;
+                }
+            }
+        }
+
+        @media screen and (max-width: 1440px) {
+            font-size: 14px;
+        }
+
+        @include breakpoint(max-lg) {
+            font-size: 11px;
+        }
+
+        @include breakpoint(max-md) {
+            font-size: 18px;
+        }
+
+    }
+
+    .input-relative {
+        position: relative;
+
+        &.mobile-view-dropdown {
+            display: none;
+            @include breakpoint("max-md") {
+                display: block;
+            }
+
+            .input-dropdown-hidden {
+                max-height: 0px;
+                overflow: scroll !important;
+                transition: .3s ease-in-out;
+            }
+
+            .input-dropdown-show {
+                max-height: 250px;
+                overflow: scroll !important;
+                overflow-x: hidden;
+                transition: .3s ease-in-out;
+            }
+
+            .input-dropdown {
+                position: absolute;
+                width: 100%;
+                z-index: 9999;
+                border-radius: 4px;
+
+                .input-dropdown-design {
+                    border: 1px solid var(--border-color);
+                    border-radius: 4px;
+
+                    span {
+                        padding: 10px 15px;
+                        @include text;
+                        color: var(--text-black);
+                        display: block;
+                        @include pointer;
+                        background-color: var(--white-color);
+                        @include breakpoint("max-sm") {
+                            font-size: 14px !important;
+                        }
+
+                        &:hover {
+                            background-color: var(--border-color);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        border: 1px solid var(--border-color);
+        padding: 0 20px;
+        @include text-sm;
+        height: 45px;
+        color: var(--inputfont-color);
+        background-color: transparent;
+        @include breakpoint("max-sm") {
+            font-size: 14px !important;
+        }
+
+        @include breakpoint("max-xl") {
+            height: 43px;
+        }
+
+        &:focus {
+            outline: none;
+        }
+
+        &::placeholder {
+            @include text-sm;
+            color: var(--place-holder-color);
+        }
+
+        &.error-input {
+            border: 1px solid #ef817b;
+        }
+
+    }
+
+    textarea {
+        width: 100%;
+        border: 1px solid var(--border-color);
+        padding: 10px 20px;
+        @include text-sm;
+        height: 180px;
+        color: var(--text-black);
+        background-color: transparent;
+
+        @include breakpoint("max-xl") {
+            height: 150px;
+        }
+
+        &:focus {
+            outline: none;
+        }
+
+        &::placeholder {
+            @include text-sm;
+            color: var(--place-holder-color);
+            @include breakpoint("max-sm") {
+                font-size: 14px !important;
+            }
+        }
+
+    }
+
+    .icon-alignment {
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        @include pointer;
+        transform: translateY(-50%);
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
+        &.no-curser {
+            cursor: default;
+            ;
+        }
+
+        span {
+            // color: var(--place-holder-color);
+            color: var(--inputfont-color);
+            font-family: 'Barlow', sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+            @include breakpoint("max-sm") {
+                font-size: 14px !important;
+            }
+        }
+
+        i {
+            color: var(--place-holder-color);
+        }
+    }
+
+    .input-alignment2 {
+        @include pointer;
+        position: relative;
+
+        i {
+            color: lightgray;
+            font-size: 14px;
+        }
+    }
+
+    &::placeholder {
+        @include text-sm;
+        color: var(--place-holder-color);
+        @include breakpoint("max-sm") {
+            font-size: 14px !important;
+        }
+    }
+}
+
+.check-box-alignment {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    @include breakpoint("max-md") {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    &.solar-saving {
+        width: 100%;
+    }
+
+    &.contact-alignment {
+        @include flex-center;
+        gap: 5px;
+    }
+
+    input[type=checkbox]+label {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 15px;
+        cursor: pointer;
+
+        &.solar-label {
+            justify-content: space-between;
+            flex-direction: row-reverse;
+
+            @include breakpoint(max-md) {
+                justify-content: flex-start;
+                flex-direction: row;
+            }
+
+        }
+
+    }
+
+    input[type=checkbox]+label:hover {
+        .more-option-input-tooltip-details {
+            visibility: visible;
+        }
+    }
+
+    input[type=checkbox] {
+        display: none;
+    }
+
+    input[type=checkbox]+label:before {
+        // content: url("../../assets/Icons/checkIcon.png");
+        // content: '✔️';
+        content: url("");
+        border: 1px solid var(--border-color);
+        border-radius: 2px;
+        display: flex;
+        width: 18px;
+        height: 18px;
+        vertical-align: bottom;
+        color: transparent;
+        transition: 0.2s;
+        font-size: 10px !important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    input[type=checkbox]:checked+label:before {
+        content: url("../../assets/Icons/check-icon-down.svg");
+        background-color: var(--bg-white);
+        color: var(--bg-white);
+    }
+
+    input[type=checkbox]:checked+label:after {
+        display: block;
+        position: absolute;
+        top: 11px;
+        left: 16px;
+        width: 4px;
+        height: 10px;
+        border: 1px solid none !important;
+        border-width: 0 2px 2px 0;
+        transform: rotate(45deg);
+    }
+
+
+    // .checkbox-input-alignment {
+    //     @include pointer;
+    //     position: relative;
+
+    //     i {
+    //         color: lightgray;
+    //         font-size: 14px;
+    //     }
+
+    //     .more-option-input-tooltip-details {
+    //         visibility: hidden;
+    //         width: 253px;
+    //         max-width: 253px;
+    //         background-color: var(--tooltip-color);
+    //         border-radius: 3px;
+    //         padding: 5px 0;
+    //         position: absolute;
+    //         z-index: 1;
+    //         // top: 150%;
+    //         // bottom: -40px;
+    //         // left: 50%;
+    //         // margin-left: -60px;
+    //         right: -43px;
+    //         top: -85px;
+
+    //         @include breakpoint("max-md") {
+    //             left: 0;
+    //         }
+
+    //         &.e-mobility-tooltips {
+    //             width: 357px;
+    //             max-width: 357px;
+    //             right: -146px;
+    //             top: -100px;
+
+    //             @include breakpoint("max-md") {
+    //                 width: 100%;
+    //                 max-width: 100%;
+    //                 right: -146px;
+    //                 top: -116px;
+    //             }
+    //         }
+
+    //         span {
+    //             padding: 7px 10px;
+    //             @include text-xxs;
+    //             color: var(--tooltip-font-color);
+    //             text-align: left;
+    //             display: block;
+    //         }
+
+    //         &::after {
+    //             // content: "";
+    //             // position: absolute;
+    //             // bottom: 100%;
+    //             // left: 50%;
+    //             // margin-left: -5px;
+    //             // border-width: 5px;
+    //             // border-style: solid;
+    //             // border-color: transparent transparent var(--tooltip-color) transparent;
+
+    //             content: "";
+    //             position: absolute;
+    //             top: 100%;
+    //             left: 5%;
+    //             margin-left: -5px;
+    //             border-width: 5px;
+    //             border-style: solid;
+    //             border-color: var(--tooltip-color) transparent transparent transparent;
+    //         }
+    //     }
+    // }
+
+}
+
+.check-box-alignment:hover {
+    .more-option-input-tooltip-details {
+        visibility: visible;
+    }
+}
+
+.radio-button-alignment {
+
+    [type="radio"]:checked,
+    [type="radio"]:not(:checked) {
+        position: absolute;
+        left: -9999px;
+    }
+
+    [type="radio"]:checked+label,
+    [type="radio"]:not(:checked)+label {
+        position: relative;
+        padding-left: 28px;
+        cursor: pointer;
+        line-height: 20px;
+        display: inline-block;
+        color: #666;
+    }
+
+    [type="radio"]:checked+label:before,
+    [type="radio"]:not(:checked)+label:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 16px;
+        height: 16px;
+        border: 1px solid var(--primary-color);
+        border-radius: 100%;
+        background: #fff;
+
+    }
+
+    [type="radio"]:checked+label:after,
+    [type="radio"]:not(:checked)+label:after {
+        content: '';
+        width: 10px;
+        height: 10px;
+        background: var(--primary-color);
+        position: absolute;
+        top: 4px;
+        left: 4px;
+        border-radius: 100%;
+        -webkit-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+
+    }
+
+    [type="radio"]:not(:checked)+label:after {
+        opacity: 0;
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+
+    [type="radio"]:checked+label:after {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+
+input:-moz-placeholder {
+    color: var(--place-holder-color);
+}
+
+input::-webkit-input-placeholder {
+    color: var(--place-holder-color);
+}
+
+/* Fix Input Zoom on devices older than iPhone 5: */
+@media screen and (device-aspect-ratio: 2/3) {
+    select,
+    textarea,
+    input[type="text"],
+    input[type="password"],
+    input[type="datetime"],
+    input[type="datetime-local"],
+    input[type="date"],
+    input[type="month"],
+    input[type="time"],
+    input[type="week"],
+    input[type="number"],
+    input[type="email"],
+    input[type="url"] {
+      font-size: 16px !important;
+    }
+  }
+  
+  /* Fix Input Zoom on iPhone 5, 5C, 5S, iPod Touch 5g */
+  @media screen and (device-aspect-ratio: 40/71) {
+    select,
+    textarea,
+    input[type="text"],
+    input[type="password"],
+    input[type="datetime"],
+    input[type="datetime-local"],
+    input[type="date"],
+    input[type="month"],
+    input[type="time"],
+    input[type="week"],
+    input[type="number"],
+    input[type="email"],
+    input[type="url"] {
+      font-size: 16px !important;
+    }
+  }
+  
+  /* Fix Input Zoom on iPhone 6, iPhone 6s, iPhone 7  */
+  @media screen and (device-aspect-ratio: 375/667) {
+    select,
+    textarea,
+    input[type="text"],
+    input[type="password"],
+    input[type="datetime"],
+    input[type="datetime-local"],
+    input[type="date"],
+    input[type="month"],
+    input[type="time"],
+    input[type="week"],
+    input[type="number"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="url"] {
+      font-size: 16px !important;
+    }
+  }
+  
+  /* Fix Input Zoom on iPhone 6 Plus, iPhone 6s Plus, iPhone 7 Plus, iPhone 8, iPhone X, XS, XS Max  */
+  @media screen and (device-aspect-ratio: 9/16) {
+    select,
+    textarea,
+    input[type="text"],
+    input[type="password"],
+    input[type="datetime"],
+    input[type="datetime-local"],
+    input[type="date"],
+    input[type="month"],
+    input[type="time"],
+    input[type="week"],
+    input[type="number"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="url"] {
+      font-size: 16px !important;
+    }
+  }

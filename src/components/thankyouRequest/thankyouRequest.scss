@@ -1,0 +1,426 @@
+@import '../../styles/mixins/global.scss';
+
+.thankyou-request-content-left-alignment {
+    padding-left: max(80px, calc((100vw - 1380px) / 2));
+
+    @include breakpoint("max-xl") {
+        padding-left: 60px;
+    }
+
+    @include breakpoint(max-md) {
+        padding: 0;
+    }
+
+    @include breakpoint("max-sm") {
+        padding-left: 0px !important;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 510px;
+        gap: 100px;
+        height: calc(100vh - 150px);
+
+        @include breakpoint("max-xl") {
+            gap: 45px;
+        }
+
+        @include breakpoint(max-md) {
+            height: auto;
+            grid-template-columns: 1fr;
+        }
+
+        @include breakpoint("max-md") {
+            gap: 40px;
+        }
+        @include breakpoint("max-sm") {
+            gap: 0;
+        }
+
+        .grid-items {
+            overflow-y: scroll;
+
+            @include breakpoint(max-md) {
+                overflow-y: auto;
+            }
+
+            &::-webkit-scrollbar {
+                width: 0;
+            }
+
+            &:last-child {
+                overflow-y: hidden;
+            }
+
+            .thankyou-request-content-alignment {
+                padding: 30px 0;
+
+                @include breakpoint("max-xl") {
+                    padding: 40px 0;
+                }
+
+                @include breakpoint(max-md) {
+                    padding: 60px 40px 0 40px;
+                }
+
+                @include breakpoint("max-sm") {
+                    padding: 0 30px;
+                }
+
+                .thankyou-request-content-heading {
+
+                    h1 {
+                        @include heading-8;
+                        color: var(--text-black);
+                        margin: 0 0 20px 0;
+
+                        @include breakpoint("max-sm") {
+                            font-size: 22px;
+                            line-height: 28px;
+                            max-width: 216px;
+                        }
+                    }
+                }
+
+                .thankyou-content-notes-section {
+                    @include flex-between;
+                    align-items: flex-start;
+                    gap: 40px;
+
+                    @include breakpoint(max-lg) {
+                        flex-direction: column;
+                        align-items: center
+                    }
+
+                    @include breakpoint(max-md) {
+                        flex-direction: column;
+                        align-items: center
+                    }
+
+                    @include breakpoint("max-sm") {
+                        gap: 20px;
+                    }
+
+                    .thankyou-content-notes-details {
+                        @include flex-column;
+                        gap: 40px;
+
+                        @include breakpoint(max-lg) {
+                            order: 2;
+                        }
+
+                        @include breakpoint(max-md) {
+                            order: 2;
+                        }
+
+                        p {
+                            @include text2;
+                            color: #000;
+                            margin: 20px 0 0 0;
+                        }
+
+
+                        .thankyou-button-alignment {
+                            @include breakpoint("max-sm") {
+                                display: flex;
+                                justify-content: center;
+                            }
+                            .buttonlink {
+                                padding: 10px 32px;
+                                background-color: var(--primary-color);
+                                @include text;
+                                font-weight: 600;
+                                border: none;
+                                @include pointer;
+                                letter-spacing: 1px;
+                                color: var(--white-color);
+                                min-width: 125px;
+                                border-radius: 9999px;
+                            }
+                        }
+                    }
+
+                    .thankyou-img-alignment {
+                        width: 40%;
+                        height: 40%;
+                        margin-top: -40px;
+
+                        @include breakpoint(max-lg) {
+                            margin-top: 0;
+                            order: 1;
+                            width: 50%;
+                            height: 50%;
+                        }
+
+                        @include breakpoint(max-md) {
+                            margin-top: 0;
+                            order: 1;
+                            width: 90%;
+                            height: 90%;
+                        }
+                        @include breakpoint("max-sm") {
+                            display: flex;
+                            justify-content: center;
+                        }
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            display: block;
+
+                            @include breakpoint("max-sm") {
+                                width: 75%;
+                            }
+                        }
+                    }
+                }
+
+
+                .thankyou-question-section {
+                    margin: 40px 0 0 0;
+
+                    .thankyou-question-alignment {
+                        span {
+                            @include text-bolder;
+                            color: var(--text-black);
+                        }
+                    }
+
+                    .thankyou-steper-section {
+                        margin: 10px 0 0 0;
+
+                        h4 {
+                            @include heading-3;
+                            font-weight: 700;
+                            color: var(--text-black);
+
+
+                            @include breakpoint("max-sm") {
+                                font-size: 22px;
+                                line-height: 28px;
+                            }
+                        }
+
+                        .thankyou-all-content-steper-alignment {
+                            @include flex-between;
+                            margin: 40px 0 0 0;
+                            position: relative;
+
+                            @include breakpoint(max-lg) {
+                                flex-direction: column;
+                            }
+
+                            @include breakpoint(max-md) {
+                                flex-direction: column;
+                            }
+
+                            &::before {
+                                position: absolute;
+                                content: '';
+                                background: var(--text-black);
+                                height: 2px;
+                                width: 95%;
+                                z-index: -1;
+                                right: 3px;
+                                top: 32%;
+
+                                @include breakpoint(max-lg) {
+                                    height: 90%;
+                                    width: 2px;
+                                    top: 2%;
+                                    right: 0;
+                                    left: 50%;
+                                }
+
+                                @include breakpoint(max-md) {
+                                    height: 90%;
+                                    width: 2px;
+                                    top: 2%;
+                                    right: 0;
+                                    left: 50%;
+                                }
+                            }
+
+                            .steper-img-details {
+                                width: 10%;
+                                height: 10%;
+                                @include pointer;
+                                position: relative;
+
+                                @include breakpoint(max-lg) {
+                                    width: 25%;
+                                    height: 25%;
+                                    background: var(--white-color);
+                                    margin: 10px 0 0 0;
+                                }
+
+                                @include breakpoint(max-md) {
+                                    width: 25%;
+                                    height: 25%;
+                                    background: var(--white-color);
+                                    margin: 10px 0 0 0;
+                                }
+
+                                &:first-child {
+                                    .thankyou-tooltip-details {
+                                        left: 0;
+
+                                        &::after {
+                                            left: 18%;
+
+                                            @include breakpoint(max-lg) {
+                                                left: 47%;
+                                            }
+                                        }
+
+                                        @media screen and (max-width : 1280px) {
+
+                                            left: -65px;
+                                        }
+
+                                        @media screen and (max-width : 1024px) {
+
+                                            left: -101px;
+                                        }
+
+                                        @include breakpoint(max-md) {
+                                            left: -101px;
+                                        }
+                                    }
+                                }
+
+                                &:last-child {
+                                    .thankyou-tooltip-details {
+                                        left: -218px;
+
+
+                                        @media screen and (max-width : 1440px) {
+                                            left: -227px;
+                                        }
+
+                                        @media screen and (max-width : 1280px) {
+                                            left: -75px;
+                                        }
+
+                                        @media screen and (max-width : 1024px) {
+                                            left: -112px;
+                                        }
+
+                                        @include breakpoint(max-md) {
+                                            left: -101px;
+                                        }
+
+                                        &::after {
+                                            left: 85%;
+
+                                            @include breakpoint(max-lg) {
+                                                left: 47%;
+                                            }
+
+                                        }
+                                    }
+                                }
+
+                                img {
+                                    width: 100%;
+                                    height: 100%;
+                                    display: block;
+                                }
+
+                                .step-name {
+                                    margin: 10px 0 10px 0;
+                                    text-align: center;
+
+                                    p {
+                                        @include heading-5-bolder;
+                                        color: var(--text-black);
+                                        line-height: 1rem;
+                                        font-size: 12px;
+                                        // text-transform: capitalize;
+                                        color: var(--text-black);
+                                        text-align: center;
+                                        word-break: break-all;
+                                        @media screen and (max-width : 1440px) {
+                                            font-size: 12px;
+                                        }
+                                    }
+                                }
+
+                                .thankyou-tooltip-details {
+                                    display: none;
+                                    transition: .3s ease-in-out;
+                                    width: 300px;
+                                    max-width: 300px;
+                                    background-color: var(--tooltip-color);
+                                    border-radius: 6px;
+                                    padding: 5px 0;
+                                    position: absolute;
+                                    z-index: 1;
+                                    // top: 150%;
+                                    // bottom: -40px;
+                                    // left: 50%;
+                                    // margin-left: -60px;
+                                    right: 0;
+                                    left: -101px;
+
+
+                                    @media screen and (max-width:1280px) {
+                                        left: -75px;
+                                    }
+
+                                    @media screen and (max-width:1024px) {
+                                        left: -112px;
+                                    }
+
+
+                                    span {
+                                        padding: 5px;
+                                        @include text-sm-bold;
+                                        font-size: 10px;
+                                        color: var(--text-black);
+                                        display: block;
+                                    }
+
+                                    &::after {
+                                        content: "";
+                                        position: absolute;
+                                        bottom: 100%;
+                                        left: 50%;
+                                        margin-left: -5px;
+                                        border-width: 5px;
+                                        border-style: solid;
+                                        border-color: transparent transparent var(--tooltip-color) transparent;
+                                    }
+                                }
+
+                                &:hover {
+                                    .thankyou-tooltip-details {
+                                        display: block !important;
+                                        transition: .3s ease-in-out;
+                                    }
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+
+            .main-image-style {
+                height: 100%;
+                width: 100%;
+                position: relative;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    display: block;
+
+                    @include breakpoint(max-md) {
+                        height: 241px;
+                    }
+                }
+            }
+        }
+    }
+}

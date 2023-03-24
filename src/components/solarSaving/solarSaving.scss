@@ -1,0 +1,456 @@
+@import "../../styles/mixins/global.scss";
+
+.solar-saving-content-left-alignment {
+    padding-left: max(80px, calc((100vw - 1380px) / 2));
+
+    @include breakpoint("max-xl") {
+        padding-left: 60px;
+    }
+
+    @include breakpoint(max-md) {
+        padding: 0;
+    }
+
+    @include breakpoint("max-sm") {
+        padding-left: 0px !important;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 510px;
+        gap: 60px;
+        height: calc(100vh - 150px);
+
+        @include breakpoint(max-md) {
+            height: auto;
+            grid-template-columns: 1fr;
+        }
+
+        @include breakpoint("max-sm") {
+            gap: 40px;
+        }
+
+        .grid-items {
+            overflow-y: scroll;
+            position: relative;
+
+            &::-webkit-scrollbar {
+                width: 0;
+            }
+
+            &:last-child {
+                overflow-y: hidden;
+                position: relative;
+            }
+
+            .solar-saving-content-alignment {
+                padding: 30px 0;
+
+                @include breakpoint("max-xl") {
+                    padding: 40px 0;
+                }
+
+                @include breakpoint("max-xl") {
+                    padding: 40px 0;
+                }
+
+                @include breakpoint(max-md) {
+                    padding: 60px 40px 0 40px;
+                }
+
+                @include breakpoint("max-sm") {
+                    padding: 0 30px;
+                }
+
+                .solar-saving-content-heading {
+
+                    h1 {
+                        @include heading-8;
+                        color: var(--text-black);
+                        margin: 0 0 42px 0;
+                    }
+                }
+
+                .solar-saving-content-grid {
+                    @include grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: 40px;
+                    margin: 25px 0 0 0;
+
+                    @include breakpoint(max-lg) {
+                        grid-template-columns: 1fr;
+                    }
+
+                    @include breakpoint(max-md) {
+                        grid-template-columns: 1fr;
+                    }
+
+                    @include breakpoint(max-sm) {
+                        gap: 30px;
+                    }
+
+                    .solar-saving-details-content-alignment {
+                        .solar-saving-heading-alignment {
+                            h5 {
+                                @include text-bolder;
+                                color: var(--text-black);
+                            }
+                        }
+
+                        .solar-calc-details-alignment {
+                            padding: 30px 0 0 0;
+                            @include flex;
+                            gap: 6px;
+
+                            h1 {
+                                @include heading-7-bolder;
+                                color: var(--text-black);
+                                letter-spacing: 0;
+                                position: relative;
+                                display: inline;
+
+                                &::before {
+                                    content: '';
+                                    position: absolute;
+                                    // background: var(--primary-color);
+                                    background: #f3a632;
+                                    height: 21px;
+                                    width: 100%;
+                                    right: 0;
+                                    bottom: 1px;
+                                    z-index: -1;
+                                }
+
+                            }
+
+                            span {
+                                @include heading-2;
+                                color: var(--text-black);
+                            }
+                        }
+
+                        .solar-saving-content-details-section {
+                            margin: 30px 0 0 0;
+
+                            .solar-saving-content-details {
+                                @include flex-column;
+                                gap: 5px;
+
+                                @include breakpoint("max-sm") {
+                                    gap: 12px;
+                                }
+
+                                .solar-saving-question-alignment {
+                                    @include flex-between;
+                                    gap: 12px;
+
+                                    p {
+                                        @include text-md;
+                                        color: var(--text-black);
+                                        font-size: 16px;
+
+                                        @include breakpoint("max-xl") {
+                                            font-size: 14px;
+                                        }
+
+                                        @include breakpoint("max-sm") {
+                                            color: #939393;
+                                            max-width: 150px;
+                                        }
+                                    }
+
+                                    span {
+                                        @include text-md;
+                                        font-weight: 700;
+                                        color: grey;
+                                        text-align: end;
+                                    }
+                                }
+                            }
+                        }
+
+                        .solar-saving-details-button-alignment {
+                            display: none;
+
+                            @include breakpoint("max-md") {
+                                display: block;
+                                text-align: center;
+                                padding: 20px 0 0 0;
+                            }
+
+                            button {
+                                background-color: var(--primary-color);
+                                @include text2;
+                                font-weight: 500;
+                                border: none;
+                                @include pointer;
+                                letter-spacing: 1px;
+                                color: var(--white-color);
+                                border-radius: 3px !important;
+                                @include global-button-style;
+                            }
+                        }
+
+                        .solar-saving-content-notes {
+                            margin: 40px 0 0 0;
+
+                            @include breakpoint("max-sm") {
+                                display: none;
+                            }
+
+                            p {
+                                @include heading-5-bolder;
+                                color: gray;
+
+                                @include breakpoint("max-sm") {
+                                    font-size: 13px;
+                                    font-weight: 400;
+
+                                }
+                            }
+                        }
+
+
+                    }
+
+                    .solar-saving-box-alignment {
+                        border: 1px solid var(--border-color);
+                        padding: 16px 12px;
+
+                        @include flex-column;
+                        gap: 10px;
+
+                        .solar-saving-details-conatent {
+                            .solar-saving-box-heading-details {
+                                @include flex-between;
+                                margin: 0 0 5px 0;
+
+                                p {
+                                    @include heading-5-bolder;
+                                    // color: var(--light-black);
+                                    color: var(--text-black);
+
+                                    @include breakpoint("max-xl") {
+                                        font-size: 14px;
+                                    }
+
+                                    @include breakpoint("max-sm") {
+                                        color: #252525;
+                                    }
+                                }
+                            }
+
+                            .solar-saving-box-details-alignment {
+                                @include flex-column;
+                                gap: 10px;
+
+                                @include breakpoint("max-sm") {
+                                    gap: 20px
+                                }
+
+                                .solar-saving-box-details-name {
+                                    @include flex-between;
+                                    align-items: flex-start;
+                                    gap: 10px;
+
+                                    @include breakpoint(max-lg) {
+                                        flex-direction: column;
+                                        align-items: flex-start;
+                                    }
+
+
+                                    @include breakpoint(max-md) {
+                                        flex-direction: column;
+                                        align-items: flex-start;
+                                    }
+
+                                    @include breakpoint("max-sm") {
+                                        gap: 4px;
+                                    }
+
+                                    &.mobile-checkbox-alignment {
+                                        @include breakpoint(max-lg) {
+                                            @include flex-center;
+                                            flex-direction: row;
+                                            justify-content: flex-start;
+                                            gap: 5px;
+                                        }
+
+                                        @include breakpoint(max-md) {
+                                            @include flex-center;
+                                            flex-direction: row;
+                                            justify-content: flex-start;
+                                            gap: 5px;
+                                        }
+
+                                        label {
+                                            order: 2;
+                                            width: 100%;
+                                            font-family: 'Barlow', sans-serif;
+                                        }
+
+                                        label {
+                                            font-family: 'Barlow', sans-serif;
+                                            color: var(--light-black3);
+                                        }
+
+                                        input[type="checkbox"] {
+                                            order: 1;
+                                        }
+                                    }
+
+                                    p:first-child {
+                                        white-space: nowrap;
+                                    }
+
+                                    p {
+                                        @include heading-5;
+                                        color: var(--light-black3);
+                                        font-size: 12px;
+                                        line-height: 18px;
+
+                                        &:last-child {
+                                            color: var(--light-black);
+                                        }
+
+                                        @include breakpoint("max-xl") {
+                                            font-size: 14px;
+                                        }
+
+                                        @include breakpoint("max-sm") {
+                                            color: #5b5b5b;
+
+                                            &:last-child {
+                                                color: var(--light-black);
+                                            }
+                                        }
+
+                                        label {
+                                            @include heading-5;
+                                            color: var(--light-black3);
+                                            font-size: 14px;
+                                            line-height: 20px;
+
+                                            @include breakpoint("max-xl") {
+                                                font-size: 14px;
+                                            }
+                                        }
+
+                                        input[type="checkbox"] {
+                                            width: 18px;
+                                            height: 18px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .solar-saving-content-notes-mobileview {
+                            margin: 20px 0 0 0;
+                            display: none;
+
+                            @include breakpoint("max-sm") {
+                                display: block;
+                            }
+
+                            p {
+                                @include heading-5-bolder;
+                                color: gray;
+
+                                @include breakpoint("max-sm") {
+                                    font-size: 13px;
+                                    font-weight: 400;
+                                    max-width: 150px;
+
+                                    &.notes-alignemnt {
+                                        max-width: 100%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .solar-saving-button-alignment {
+                    margin: 30px 0 0 0;
+                    position: absolute;
+                    bottom: 24px;
+                    right: 0;
+
+                    @include breakpoint("max-xl") {
+                        margin: 20px 0 0 0;
+
+                        position: absolute;
+                        bottom: 24px;
+                        right: 0;
+                    }
+
+                    @include breakpoint("max-md") {
+                        position: relative;
+                        bottom: 0
+                    }
+
+                    @include breakpoint("max-sm") {
+                        position: relative;
+                        bottom: 0
+                    }
+
+                    .solar-saving-button-grid {
+                        @include flex-center;
+                        justify-content: flex-end;
+                        gap: 20px;
+
+                        button {
+                            background-color: var(--primary-color);
+                            @include text2;
+                            font-weight: 500;
+                            border: none;
+                            @include pointer;
+                            letter-spacing: 1px;
+                            color: var(--white-color);
+                            border-radius: 9999px;
+                            @include global-button-style;
+
+                            @include breakpoint("max-sm") {
+                                padding: 15px 9px;
+                                font-size: 12px;
+                            }
+
+                            &:first-child {
+                                border: 1px solid var(--primary-color);
+                                color: var(--primary-color);
+                                background: transparent;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .main-image-style {
+                height: 100%;
+                width: 100%;
+                position: relative;
+
+                @include breakpoint(max-md) {
+                    height: 241px;
+                }
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    display: block;
+                    object-fit: cover;
+                }
+            }
+
+            .input-alignment2 {
+                @include pointer;
+
+                i {
+                    color: lightgray;
+                }
+            }
+
+        }
+    }
+}

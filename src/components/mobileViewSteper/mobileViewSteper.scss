@@ -1,0 +1,59 @@
+@import "../../styles/mixins/global.scss";
+
+.mobile-view-steper-section {
+    display: none;
+
+    @include breakpoint(max-md) {
+        display: block;
+
+    }
+
+    padding: 30px 0;
+    position:sticky;
+    top: calc(78px + 0px);
+    width: 100%;
+    background: white;
+    z-index: 99999;
+
+    .mobile-view-steper-alignment {
+        @include flex-center;
+        justify-content: space-around;
+        position: relative;
+
+        &::before {
+            position: absolute;
+            content: '';
+            background: var(--primary-color);
+            height: 6px;
+            width: 100%;
+            z-index: -1;
+        }
+
+        .mobile-view-steper-details {
+            width: 42px;
+            height: 42px;
+            border: 2px solid var(--primary-color);
+            border-radius: 50%;
+            @include flex-center;
+            justify-content: center;
+            background: var(--white-color);
+
+            &.active {
+                background: var(--primary-color);
+
+                span {
+                    color: var(--white-color);
+                }
+            }
+
+            &.light-orange {
+                background: #FED8B1;
+            }
+
+            span {
+                @include text4;
+                color: var(--text-black);
+            }
+        }
+    }
+}

@@ -1,0 +1,240 @@
+@use '../mixins/breakpoint.scss';
+
+
+@mixin heading-large {
+  // font-family: "WeissenhofGroteskW01-Rg";
+  font-family: 'Barlow', sans-serif;
+  font-size: 4.5rem;
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+@mixin heading-1 {
+  // font-family: "WeissenhofGroteskW01-Rg";
+  font-family: 'Barlow', sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+}
+
+@mixin heading-2 {
+  // font-family: "WeissenhofGroteskW01-Rg";
+  font-family: 'Barlow', sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+@mixin heading-3 {
+  // font-family: "WeissenhofGroteskW01-Rg";
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+@mixin heading-4 {
+  // font-family: "WeissenhofGroteskW01-Rg";
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+@mixin heading-5 {
+  // font-family: "WeissenhofGroteskW01-Rg";
+  font-family: 'Barlow', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+@mixin heading-5-bold {
+  // font-family: "WeissenhofGroteskW01-Rg";
+  font-family: 'Barlow', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+@mixin heading-5-bolder {
+  // font-family: "WeissenhofGroteskW01-Rg";
+  font-family: 'Barlow', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+@mixin heading-6 {
+  // font-family: "WeissenhofGroteskW01-Rg";
+  font-family: 'Barlow', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+@mixin heading-7 {
+  // font-family: "WeissenhofGroteskW01-Rg";
+  font-family: 'Barlow', sans-serif;
+  font-size: 51px;
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+}
+
+@mixin heading-7-bolder {
+  // font-family: "WeissenhofGroteskW01-Rg";
+  font-family: 'Barlow', sans-serif;
+  font-size: 51px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+}
+
+@mixin heading-8 {
+  // font-family: "WeissenhofGroteskW01-Rg";
+  font-family: 'Barlow', sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 38px;
+  // letter-spacing: -0.01em;
+
+  @include breakpoint(max-md) {
+    font-size: 30px;
+  }
+}
+
+@mixin heding-9 {
+  font-family: 'Barlow', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 41px;
+}
+
+@mixin heding-10 {
+  font-family: 'Barlow', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 41px;
+}
+
+@mixin text-md {
+  // font-family: "WeissenhofGroteskW01-Rg";
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+@mixin text-md-bold {
+  // font-family: "WeissenhofGroteskW01-Rg";
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+@mixin text {
+  // font-family: "WeissenhofGroteskW01-Rg";
+  font-family: 'Barlow', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+@mixin text2 {
+  // font-family: "WeissenhofGroteskW01-Rg";
+  font-family: 'Barlow', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+@mixin text-bold {
+  // font-family: "WeissenhofGroteskW01-Rg";
+  font-family: 'Barlow', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+@mixin text-bolder {
+  // font-family: "WeissenhofGroteskW01-Rg";
+  font-family: 'Barlow', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+@mixin text-sm {
+  // font-family: "WeissenhofGroteskW01-Rg";
+  font-family: 'Barlow', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+@mixin text-sm-bold {
+  // font-family: "WeissenhofGroteskW01-Rg";
+  font-family: 'Barlow', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+@mixin text-sm-bolder {
+  // font-family: "WeissenhofGroteskW01-Rg";
+  font-family: 'Barlow', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+@mixin text-xs {
+  // font-family: "WeissenhofGroteskW01-Rg";
+  font-family: 'Barlow', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+@mixin text3 {
+  font-family: 'Barlow', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 62.5;
+}
+
+@mixin text4 {
+  font-family: 'Barlow', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 62.5;
+}
+
+@mixin text-xxs {
+  font-family: 'Barlow', sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 62.5;
+}

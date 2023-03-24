@@ -1,0 +1,110 @@
+@import '../../../styles/mixins/global.scss';
+
+.full-page-logo {
+    padding: 20px 0;
+    background-color: #fff;
+    border-bottom: 1px solid #d0d0d0;
+
+    img {
+        cursor: pointer;
+        width: 128px;
+        height: 32px;
+        cursor: pointer;
+        display: block;
+    }
+}
+
+.impressum-banner-content-alignment {
+    background-image: url("../../../assets/image/impressum.jpg");
+    height: 480px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.impressum-content-alignment {
+    padding: 80px 0;
+
+
+    @include breakpoint("max-xl") {
+        padding: 60px 0;
+    }
+
+    h1 {
+        @include heading-8;
+        margin: 0 0 30px 0;
+        color: #000;
+
+        @include breakpoint("max-sm") {
+            margin: 0 0 20px 0;
+        }
+    }
+
+    .all-content-style {
+        .text-style {
+            padding: 0 0 20px 0;
+
+            @include breakpoint("max-sm") {
+                padding: 0 0 16px 0;
+            }
+
+            .bottom-text {
+                margin-bottom: 0px !important;
+            }
+
+            h2 {
+                @include text3;
+                color: #221e1e;
+                margin: 0 0 20px 0;
+                font-weight: 600;
+
+                @include breakpoint("max-sm") {
+                    margin: 0 0 16px 0;
+                }
+            }
+
+            ul {
+                margin: 0;
+                padding: 0;
+                padding-left: 1.25rem;
+
+                li {
+                    @include text3;
+                    color: #221e1e;
+                    line-height: 28px;
+                }
+            }
+
+            p {
+                @include text3;
+                color: #221e1e;
+                line-height: 28px;
+                margin: 0 0 20px 0;
+
+                @include breakpoint("max-sm") {
+                    margin: 0 0 16px 0;
+                }
+
+                span {
+                    font-weight: 600;
+                }
+
+                a {
+                    @include text3;
+                    color: #221e1e;
+                    line-height: 28px;
+
+                    &:hover {
+                        color: var(--primary-color);
+                    }
+                }
+            }
+
+            p:last-child {
+                margin: 0;
+            }
+        }
+    }
+}

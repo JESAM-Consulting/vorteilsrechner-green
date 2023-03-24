@@ -1,0 +1,93 @@
+@import '../../styles/mixins/global.scss';
+
+.stper-footer-design {
+    background-color: var(--footer-background);
+    padding: 24px 0;
+
+    @include breakpoint(max-md) {
+        margin: -6px 0 0 0;
+        padding: 35px;
+    }
+
+    .footer-content-alignment {
+        @include flex-center;
+        justify-content: space-between;
+
+        @include breakpoint(max-md) {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 30px;
+        }
+
+        .back-web {
+            @include flex-center;
+            @include pointer;
+
+            i {
+                color: var(--primary-color);
+                @include pointer;
+            }
+
+            .spanlink {
+                @include text-sm;
+                color: var(--primary-color);
+                font-weight: 500;
+                padding-left: 10px;
+                display: block;
+            }
+        }
+
+        .footer-link {
+            @include flex-center;
+            gap: 28px;
+
+            @include breakpoint(max-md) {
+                width: 100%;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .footer-link-alignment {
+                @include flex-center;
+                gap: 28px;
+
+                &.mobile-view-alignment {
+                    @include breakpoint(max-md) {
+                        width: 100%;
+                        justify-content: space-between;
+                    }
+                }
+
+                .facebook-icon {
+                    width: 13px;
+                    height: 25px;
+                    @include pointer;
+                }
+
+                .instragram-icon {
+                    width: 25px;
+                    height: 25px;
+                    @include pointer;
+                }
+
+                // @include breakpoint(max-md) {
+                //     flex-direction: column;
+                //     align-items: flex-start;
+                //     gap: 34px;
+                // }
+
+                a {
+                    display: block;
+                    @include text;
+                    @include pointer;
+                    color: var(--white-color);
+                    padding-right: 24px;
+                }
+
+                a:last-child {
+                    padding: 0;
+                }
+            }
+        }
+    }
+}

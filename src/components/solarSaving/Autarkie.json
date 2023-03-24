@@ -1,0 +1,3660 @@
+[
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 0,
+        "result": 34.00
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 0,
+        "result": 36.00
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 0,
+        "result": 36.30
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 0,
+        "result": 37.50
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 0,
+        "result": 38.40
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 0,
+        "result": 39.20
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 0,
+        "result": 39.90
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 0,
+        "result": 40.40
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 0,
+        "result": 40.90
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 0,
+        "result": 41.30
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 0,
+        "result": 41.70
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 0,
+        "result": 42.10
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 0,
+        "result": 42.40
+    },
+
+
+
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 6,
+        "result": 76.00
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 6,
+        "result": 80.00
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 6,
+        "result": 85.80
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 6,
+        "result": 87.60
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 6,
+        "result": 89.10
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 6,
+        "result": 90.40
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 6,
+        "result": 91.30
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 6,
+        "result": 92.20
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 6,
+        "result": 93.00
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 6,
+        "result": 93.70
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 6,
+        "result": 94.30
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 6,
+        "result": 94.80
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 6,
+        "result": 95.20
+    },
+
+
+
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 9,
+        "result": 77.00
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 9,
+        "result": 82.00
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 9,
+        "result": 87.75
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 9,
+        "result": 89.85
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 9,
+        "result": 91.55
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 9,
+        "result": 92.65
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 9,
+        "result": 93.55
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 9,
+        "result": 94.35
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 9,
+        "result": 95.05
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 9,
+        "result": 95.60
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 9,
+        "result": 96.05
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 9,
+        "result": 96.45
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 9,
+        "result": 96.75
+    },
+
+
+
+
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 12,
+        "result": 78.00
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 12,
+        "result": 83.00
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 12,
+        "result": 88.80
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 12,
+        "result": 91.10
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 12,
+        "result": 93.10
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 12,
+        "result": 94.30
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 12,
+        "result": 95.10
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 12,
+        "result": 95.80
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 12,
+        "result": 96.30
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 12,
+        "result": 96.60
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 12,
+        "result": 96.90
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 12,
+        "result": 97.20
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 12,
+        "result": 97.50
+    },
+    
+
+
+
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 15,
+        "result": 79.00
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 15,
+        "result": 83.00
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 15,
+        "result": 89.55
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 15,
+        "result": 92.10
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 15,
+        "result": 94.10
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 15,
+        "result": 95.25
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 15,
+        "result": 96.00
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 15,
+        "result": 96.55
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 15,
+        "result": 96.90
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 15,
+        "result": 97.20
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 15,
+        "result": 97.50
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 15,
+        "result": 97.80
+    },
+    {
+        "StrombedarfkWh": 2000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 15,
+        "result": 98.10
+    },
+
+
+
+
+
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 0,
+        "result": 30.00
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 0,
+        "result": 33.00
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 0,
+        "result": 33.00
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 0,
+        "result": 34.70
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 0,
+        "result": 35.80
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 0,
+        "result": 36.70
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 0,
+        "result": 37.50
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 0,
+        "result": 38.10
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 0,
+        "result": 38.70
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 0,
+        "result": 39.20
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 0,
+        "result": 39.60
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 0,
+        "result": 40.00
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 0,
+        "result": 40.40
+    },
+
+
+
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 6,
+        "result": 66.00
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 6,
+        "result": 71.00
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 6,
+        "result": 78.50
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 6,
+        "result": 80.80
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 6,
+        "result": 82.50
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 6,
+        "result": 84.00
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 6,
+        "result": 85.20
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 6,
+        "result": 86.20
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 6,
+        "result": 87.10
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 6,
+        "result": 87.90
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 6,
+        "result": 88.60
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 6,
+        "result": 89.30
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 6,
+        "result": 89.90
+    },
+
+
+
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 9,
+        "result": 68.00
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 9,
+        "result": 73.00
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 9,
+        "result": 80.75
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 9,
+        "result": 83.20
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 9,
+        "result": 85.00
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 9,
+        "result": 86.40
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 9,
+        "result": 87.65
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 9,
+        "result": 88.70
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 9,
+        "result": 89.55
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 9,
+        "result": 90.25
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 9,
+        "result": 90.95
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 9,
+        "result": 91.60
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 9,
+        "result": 92.15
+    },
+
+
+
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 12,
+        "result": 69.00
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 12,
+        "result": 75.00
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 12,
+        "result": 81.90
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 12,
+        "result": 84.50
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 12,
+        "result": 86.50
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 12,
+        "result": 88.00
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 12,
+        "result": 89.30
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 12,
+        "result": 90.40
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 12,
+        "result": 91.30
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 12,
+        "result": 92.00
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 12,
+        "result": 92.60
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 12,
+        "result": 93.20
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 12,
+        "result": 93.70
+    },
+
+
+
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 15,
+        "result": 70.00
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 15,
+        "result": 75.00
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 15,
+        "result": 82.45
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 15,
+        "result": 85.20
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 15,
+        "result": 87.30
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 15,
+        "result": 88.95
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 15,
+        "result": 90.40
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 15,
+        "result": 91.65
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 15,
+        "result": 92.60
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 15,
+        "result": 93.25
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 15,
+        "result": 93.85
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 15,
+        "result": 94.40
+    },
+    {
+        "StrombedarfkWh": 3000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 15,
+        "result": 94.90
+    },
+
+
+
+
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 0,
+        "result": 28.00
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 0,
+        "result": 30.00
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 0,
+        "result": 31.1
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 0,
+        "result": 32.5
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 0,
+        "result": 33.7
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 0,
+        "result": 34.7
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 0,
+        "result": 35.6
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 0,
+        "result": 36.3
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 0,
+        "result": 36.9
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 0,
+        "result": 37.5
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 0,
+        "result": 38
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 0,
+        "result": 38.4
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 0,
+        "result": 38.8
+    },
+
+
+
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 6,
+        "result": 57.00
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 6,
+        "result": 63.00
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 6,
+        "result": 70.3
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 6,
+        "result": 73.2
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 6,
+        "result": 75.3
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 6,
+        "result": 76.9
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 6,
+        "result": 78.2
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 6,
+        "result": 79.3
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 6,
+        "result": 80.2
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 6,
+        "result": 81.1
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 6,
+        "result": 81.8
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 6,
+        "result": 82.5
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 6,
+        "result": 83.1
+    },
+
+
+
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 9,
+        "result": 60.00
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 9,
+        "result": 67.00
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 9,
+        "result": 74.5
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 9,
+        "result": 77.6
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 9,
+        "result": 79.85
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 9,
+        "result": 81.55
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 9,
+        "result": 82.9
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 9,
+        "result": 84
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 9,
+        "result": 85
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 9,
+        "result": 85.9
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 9,
+        "result": 86.85
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 9,
+        "result": 87.4
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 9,
+        "result": 88
+    },
+
+
+
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 12,
+        "result": 61.00
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 12,
+        "result": 68.00
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 12,
+        "result": 76.1
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 12,
+        "result": 79.3
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 12,
+        "result": 81.5
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 12,
+        "result": 83.3
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 12,
+        "result": 84.6
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 12,
+        "result": 85.8
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 12,
+        "result": 86.6
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 12,
+        "result": 87.7
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 12,
+        "result": 88.5
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 12,
+        "result": 89.2
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 12,
+        "result": 89.8
+    },
+
+
+
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 15,
+        "result": 62.00
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 15,
+        "result": 69.00
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 15,
+        "result": 76.85
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 15,
+        "result": 80.1
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 15,
+        "result": 82.4
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 15,
+        "result": 84.25
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 15,
+        "result": 85.7
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 15,
+        "result": 87
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 15,
+        "result": 88.05
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 15,
+        "result": 89
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 15,
+        "result": 89.8
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 15,
+        "result": 90.5
+    },
+    {
+        "StrombedarfkWh": 4000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 15,
+        "result": 91.05
+    },
+
+
+
+
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 0,
+        "result": 26.00
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 0,
+        "result": 28.00
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 0,
+        "result": 29.20
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 0,
+        "result": 30.70
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 0,
+        "result": 32.00
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 0,
+        "result": 33.00
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 0,
+        "result": 33.90
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 0,
+        "result": 34.70
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 0,
+        "result": 35.40
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 0,
+        "result": 36.00
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 0,
+        "result": 36.50
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 0,
+        "result": 37.00
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 0,
+        "result": 37.50
+    },
+
+
+
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 6,
+        "result": 49.00
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 6,
+        "result": 55.00
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 6,
+        "result": 61.60
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 6,
+        "result": 64.60
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 6,
+        "result": 67.00
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 6,
+        "result": 68.90
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 6,
+        "result": 70.30
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 6,
+        "result": 71.60
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 6,
+        "result": 72.60
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 6,
+        "result": 73.50
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 6,
+        "result": 74.30
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 6,
+        "result": 75.00
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 6,
+        "result": 75.70
+    },
+
+
+
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 9,
+        "result": 52.00
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 9,
+        "result": 60.00
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 9,
+        "result": 68.30
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 9,
+        "result": 71.80
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 9,
+        "result": 74.45
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 9,
+        "result": 76.55
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 9,
+        "result": 78.15
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 9,
+        "result": 79.40
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 9,
+        "result": 80.50
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 9,
+        "result": 81.40
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 9,
+        "result": 82.30
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 9,
+        "result": 83.05
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 9,
+        "result": 83.75
+    },
+
+
+
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 12,
+        "result": 53.00
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 12,
+        "result": 62.00
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 12,
+        "result": 70.60
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 12,
+        "result": 74.20
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 12,
+        "result": 76.90
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 12,
+        "result": 79.00
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 12,
+        "result": 80.70
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 12,
+        "result": 82.10
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 12,
+        "result": 83.10
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 12,
+        "result": 84.00
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 12,
+        "result": 84.80
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 12,
+        "result": 85.60
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 12,
+        "result": 86.30
+    },
+
+
+
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 15,
+        "result": 54.00
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 15,
+        "result": 63.00
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 15,
+        "result": 71.80
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 15,
+        "result": 75.30
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 15,
+        "result": 78.10
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 15,
+        "result": 79.20
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 15,
+        "result": 81.90
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 15,
+        "result": 83.25
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 15,
+        "result": 84.35
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 15,
+        "result": 85.35
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 15,
+        "result": 86.20
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 15,
+        "result": 86.95
+    },
+    {
+        "StrombedarfkWh": 5000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 15,
+        "result": 87.70
+    },
+
+
+
+
+
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 0,
+        "result": 24.00
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 0,
+        "result": 27.00
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 0,
+        "result": 27.70
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 0,
+        "result": 29.20
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 0,
+        "result": 30.50
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 0,
+        "result": 31.60
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 0,
+        "result": 32.50
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 0,
+        "result": 33.30
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 0,
+        "result": 34.10
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 0,
+        "result": 34.70
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 0,
+        "result": 35.30
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 0,
+        "result": 35.80
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 0,
+        "result": 36.60
+    },
+
+
+
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 6,
+        "result": 42.00
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 6,
+        "result": 49.00
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 6,
+        "result": 54.50
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 6,
+        "result": 57.40
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 6,
+        "result": 59.70
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 6,
+        "result": 61.60
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 6,
+        "result": 63.10
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 6,
+        "result": 64.40
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 6,
+        "result": 65.40
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 6,
+        "result": 66.30
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 6,
+        "result": 67.10
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 6,
+        "result": 67.90
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 6,
+        "result": 68.50
+    },
+
+
+
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 9,
+        "result": 45.00
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 9,
+        "result": 54.00
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 9,
+        "result": 61.90
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 9,
+        "result": 65.85
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 9,
+        "result": 68.75
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 9,
+        "result": 71.00
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 9,
+        "result": 72.55
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 9,
+        "result": 74.25
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 9,
+        "result": 75.55
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 9,
+        "result": 76.55
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 9,
+        "result": 77.40
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 9,
+        "result": 78.15
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 9,
+        "result": 78.85
+    },
+
+
+
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 12,
+        "result": 46.00
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 12,
+        "result": 56.00
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 12,
+        "result": 65.10
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 12,
+        "result": 69.40
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 12,
+        "result": 72.50
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 12,
+        "result": 74.90
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 12,
+        "result": 76.90
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 12,
+        "result": 78.50
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 12,
+        "result": 79.70
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 12,
+        "result": 80.00
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 12,
+        "result": 81.70
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 12,
+        "result": 82.50
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 12,
+        "result": 83.30
+    },
+
+
+
+
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 15,
+        "result": 47.00
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 15,
+        "result": 57.00
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 15,
+        "result": 66.45
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 15,
+        "result": 70.80
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 15,
+        "result": 73.90
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 15,
+        "result": 76.30
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 15,
+        "result": 78.25
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 15,
+        "result": 79.85
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 15,
+        "result": 81.20
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 15,
+        "result": 82.25
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 15,
+        "result": 83.20
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 15,
+        "result": 84.00
+    },
+    {
+        "StrombedarfkWh": 6000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 15,
+        "result": 84.70
+    },
+
+
+
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 0,
+        "result": 22.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 0,
+        "result": 25.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 0,
+        "result": 27.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 0,
+        "result": 29.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 0,
+        "result": 30.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 0,
+        "result": 32.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 0,
+        "result": 33.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 0,
+        "result": 33.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 0,
+        "result": 34.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 0,
+        "result": 35.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 0,
+        "result": 35.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 0,
+        "result": 36.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 0,
+        "result": 36.00
+    },
+
+
+
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 6,
+        "result": 38.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 6,
+        "result": 44.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 6,
+        "result": 48.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 6,
+        "result": 51.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 6,
+        "result": 53.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 6,
+        "result": 54.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 6,
+        "result": 56.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 6,
+        "result": 57.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 6,
+        "result": 58.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 6,
+        "result": 59.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 6,
+        "result": 59.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 6,
+        "result": 60.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 6,
+        "result": 61.00
+    },
+
+
+
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 9,
+        "result": 40.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 9,
+        "result": 48.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 9,
+        "result": 54.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 9,
+        "result": 58.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 9,
+        "result": 60.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 9,
+        "result": 62.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 9,
+        "result": 64.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 9,
+        "result": 65.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 9,
+        "result": 66.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 9,
+        "result": 67.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 9,
+        "result": 68.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 9,
+        "result": 69.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 9,
+        "result": 69.00
+    },
+
+
+
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 12,
+        "result": 40.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 12,
+        "result": 50.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 12,
+        "result": 57.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 12,
+        "result": 61.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 12,
+        "result": 64.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 12,
+        "result": 67.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 12,
+        "result": 69.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 12,
+        "result": 70.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 12,
+        "result": 71.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 12,
+        "result": 72.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 12,
+        "result": 73.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 12,
+        "result": 74.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 12,
+        "result": 75.00
+    },
+
+
+
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 15,
+        "result": 40.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 15,
+        "result": 51.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 15,
+        "result": 58.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 15,
+        "result": 63.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 15,
+        "result": 66.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 15,
+        "result": 69.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 15,
+        "result": 71.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 15,
+        "result": 73.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 15,
+        "result": 74.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 15,
+        "result": 75.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 15,
+        "result": 76.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 15,
+        "result": 77.00
+    },
+    {
+        "StrombedarfkWh": 7000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 15,
+        "result": 78.00
+    },
+
+
+
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 0,
+        "result": 21.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 0,
+        "result": 24.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 0,
+        "result": 26.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 0,
+        "result": 28.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 0,
+        "result": 29.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 0,
+        "result": 30.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 0,
+        "result": 31.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 0,
+        "result": 32.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 0,
+        "result": 33.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 0,
+        "result": 34.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 0,
+        "result": 34.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 0,
+        "result": 35.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 0,
+        "result": 35.00
+    },
+
+
+
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 6,
+        "result": 34.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 6,
+        "result": 40.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 6,
+        "result": 44.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 6,
+        "result": 47.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 6,
+        "result": 49.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 6,
+        "result": 51.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 6,
+        "result": 52.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 6,
+        "result": 53.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 6,
+        "result": 54.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 6,
+        "result": 55.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 6,
+        "result": 56.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 6,
+        "result": 56.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 6,
+        "result": 57.00
+    },
+
+
+
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 9,
+        "result": 35.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 9,
+        "result": 44.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 9,
+        "result": 49.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 9,
+        "result": 53.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 9,
+        "result": 56.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 9,
+        "result": 58.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 9,
+        "result": 59.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 9,
+        "result": 61.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 9,
+        "result": 62.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 9,
+        "result": 63.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 9,
+        "result": 64.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 9,
+        "result": 65.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 9,
+        "result": 65.00
+    },
+
+
+
+
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 12,
+        "result": 36.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 12,
+        "result": 45.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 12,
+        "result": 52.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 12,
+        "result": 57.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 12,
+        "result": 60.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 12,
+        "result": 63.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 12,
+        "result": 65.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 12,
+        "result": 66.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 12,
+        "result": 67.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 12,
+        "result": 69.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 12,
+        "result": 69.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 12,
+        "result": 70.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 12,
+        "result": 71.00
+    },
+
+
+
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 15,
+        "result": 36.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 15,
+        "result": 46.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 15,
+        "result": 54.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 15,
+        "result": 59.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 15,
+        "result": 63.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 15,
+        "result": 65.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 15,
+        "result": 68.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 15,
+        "result": 69.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 15,
+        "result": 71.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 15,
+        "result": 72.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 15,
+        "result": 73.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 15,
+        "result": 74.00
+    },
+    {
+        "StrombedarfkWh": 8000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 15,
+        "result": 75.00
+    },
+
+
+
+
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 0,
+        "result": 19.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 0,
+        "result": 22.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 0,
+        "result": 25.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 0,
+        "result": 27.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 0,
+        "result": 35.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 0,
+        "result": 29.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 0,
+        "result": 30.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 0,
+        "result": 31.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 0,
+        "result": 32.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 0,
+        "result": 33.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 0,
+        "result": 33.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 0,
+        "result": 34.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 0,
+        "result": 35.00
+    },
+
+
+
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 6,
+        "result": 30.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 6,
+        "result": 37.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 6,
+        "result": 41.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 6,
+        "result": 44.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 6,
+        "result": 46.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 6,
+        "result": 47.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 6,
+        "result": 49.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 6,
+        "result": 50.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 6,
+        "result": 51.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 6,
+        "result": 52.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 6,
+        "result": 53.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 6,
+        "result": 53.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 6,
+        "result": 54.00
+    },
+
+
+
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 9,
+        "result": 32.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 9,
+        "result": 40.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 9,
+        "result": 45.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 9,
+        "result": 49.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 9,
+        "result": 52.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 9,
+        "result": 54.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 9,
+        "result": 56.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 9,
+        "result": 57.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 9,
+        "result": 58.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 9,
+        "result": 59.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 9,
+        "result": 60.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 9,
+        "result": 61.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 9,
+        "result": 62.00
+    },
+
+
+
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 12,
+        "result": 32.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 12,
+        "result": 41.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 12,
+        "result": 48.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 12,
+        "result": 53.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 12,
+        "result": 56.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 12,
+        "result": 59.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 12,
+        "result": 65.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 12,
+        "result": 62.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 12,
+        "result": 64.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 12,
+        "result": 65.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 12,
+        "result": 66.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 12,
+        "result": 67.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 12,
+        "result": 67.00
+    },
+
+
+
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 15,
+        "result": 32.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 15,
+        "result": 42.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 15,
+        "result": 49.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 15,
+        "result": 55.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 15,
+        "result": 59.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 15,
+        "result": 62.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 15,
+        "result": 64.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 15,
+        "result": 66.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 15,
+        "result": 67.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 15,
+        "result": 69.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 15,
+        "result": 70.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 15,
+        "result": 71.00
+    },
+    {
+        "StrombedarfkWh": 9000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 15,
+        "result": 72.00
+    },
+
+
+
+
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 0,
+        "result": 18.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 0,
+        "result": 21.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 0,
+        "result": 24.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 0,
+        "result": 26.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 0,
+        "result": 27.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 0,
+        "result": 28.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 0,
+        "result": 30.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 0,
+        "result": 30.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 0,
+        "result": 31.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 0,
+        "result": 32.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 0,
+        "result": 33.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 0,
+        "result": 33.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 0,
+        "result": 34.00
+    },
+
+
+
+
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 6,
+        "result": 28.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 6,
+        "result": 34.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 6,
+        "result": 38.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 6,
+        "result": 41.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 6,
+        "result": 43.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 6,
+        "result": 45.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 6,
+        "result": 46.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 6,
+        "result": 47.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 6,
+        "result": 48.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 6,
+        "result": 49.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 6,
+        "result": 50.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 6,
+        "result": 51.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 6,
+        "result": 51.00
+    },
+
+
+
+
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 9,
+        "result": 29.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 9,
+        "result": 36.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 9,
+        "result": 42.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 9,
+        "result": 45.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 9,
+        "result": 48.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 9,
+        "result": 50.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 9,
+        "result": 52.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 9,
+        "result": 54.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 9,
+        "result": 55.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 9,
+        "result": 56.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 9,
+        "result": 57.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 9,
+        "result": 58.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 9,
+        "result": 58.00
+    },
+
+
+
+
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 12,
+        "result": 29.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 12,
+        "result": 37.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 12,
+        "result": 44.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 12,
+        "result": 49.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 12,
+        "result": 52.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 12,
+        "result": 55.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 12,
+        "result": 57.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 12,
+        "result": 59.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 12,
+        "result": 60.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 12,
+        "result": 61.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 12,
+        "result": 63.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 12,
+        "result": 63.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 12,
+        "result": 64.00
+    },
+
+
+
+
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 3000,
+        "PVSpeicher": 15,
+        "result": 29.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 4000,
+        "PVSpeicher": 15,
+        "result": 38.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 5000,
+        "PVSpeicher": 15,
+        "result": 45.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 6000,
+        "PVSpeicher": 15,
+        "result": 51.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 7000,
+        "PVSpeicher": 15,
+        "result": 55.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 8000,
+        "PVSpeicher": 15,
+        "result": 58.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 9000,
+        "PVSpeicher": 15,
+        "result": 61.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 10000,
+        "PVSpeicher": 15,
+        "result": 63.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 11000,
+        "PVSpeicher": 15,
+        "result": 64.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 12000,
+        "PVSpeicher": 15,
+        "result": 65.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 13000,
+        "PVSpeicher": 15,
+        "result": 67.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 14000,
+        "PVSpeicher": 15,
+        "result": 68.00
+    },
+    {
+        "StrombedarfkWh": 10000,
+        "PVLeistung": 15000,
+        "PVSpeicher": 15,
+        "result": 69.00
+    }
+]
