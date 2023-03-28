@@ -61,7 +61,6 @@ export default function SolarSavings(props) {
   // }
   // console.log("totalElement ",totalElement-700 )
   const getDirectionValue = () => {
-    console.log("inputPowerCon.direction", inputPowerCon);
     if (inputPowerCon.direction === "Süd") {
       return 0;
     } else if (inputPowerCon.direction === "SSW") {
@@ -239,9 +238,6 @@ export default function SolarSavings(props) {
     plantPerformance
   ) => {
     let PVpowerkW = calculatePower(plantPerformance); // PV-Leistung
-    console.log("PVpowerkW is here", PVpowerkW);
-    console.log("PVpowerkW is here", requirementPerYear);
-    console.log("PVpowerkW is here", plantPerformance);
     resultData = selfConsumptionData.find(
       (item) =>
         item.StrombedarfkWh == requirementPerYear &&
@@ -397,13 +393,11 @@ export default function SolarSavings(props) {
   // else{
   //   storageByGeneration
   // }
-  console.log("storageByGeneration1", storageByGeneration);
   let storageChoice =
     storageByGeneration > memoryByConsumption
       ? memoryByConsumption
       : storageByGeneration;
   let maximumStorage = getMaximumStorage(storageChoice);
-  console.log("storageByGeneration2", storageByGeneration);
   let selfConsumption =
     getSelfConsumption(
       inputPowerCon.requirementPerYear,
@@ -415,16 +409,6 @@ export default function SolarSavings(props) {
   let feedInTariff = (maxYield - selfUsedSolarPower) * compensation;
   let savings = selfUsedSolarPower * inputPowerCon.currntPrice;
   let totalSavings = savings + feedInTariff;
-
-  console.log("storageByGeneration3", storageByGeneration);
-  console.log("memoryByConsumption", memoryByConsumption);
-  console.log("storageChoice", storageChoice);
-  console.log("maxYield", maxYield);
-  console.log("percentagePlantPerformance", percentagePlantPerformance);
-  console.log("specificYield", specificYield);
-  console.log("maximumStorage", maximumStorage);
-  console.log("plantPerformance", plantPerformance);
-  console.log("compensation", compensation);
 
   // display calculation
   let inputPowerConKm = 0;
@@ -469,9 +453,6 @@ export default function SolarSavings(props) {
 
 
   let autarkie = getAutarkie(countedFinalEconsumption, maximumStorage, produceSolarPerYer)
-
-  console.log("Autarkie", autarkie);
-  console.log("eConsumption", eConsumption);
 
   // Final Calculation......................................................................
 

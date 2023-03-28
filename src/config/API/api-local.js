@@ -1,5 +1,5 @@
 const protocol = "https";
-const host = "api.solar-energy.rejoicehub.com/api/v1";
+const host = "api.vorteli-green.rejoicehub.com/api/v1";
 
 
 // const protocol = "http";

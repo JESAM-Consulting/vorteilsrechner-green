@@ -59,7 +59,6 @@ export default function RootArea(props) {
   const { setOpenTab, inputPowerCon, setInputPowerCon, openTab } = props;
   const items = JSON.parse(localStorage.getItem("solar"));
   const [checkTab, setCheckTab] = useAtom(steperArray);
-  console.log("checkTabBB",checkTab,openTab)
 
   const [dropdownHidden1, setDropdownHidden1] = useState(false);
   const [angleValue, setAngleValue] = useState();
@@ -113,7 +112,6 @@ export default function RootArea(props) {
     setErrors({ ...errors, [name]: "" });
   };
   const handlesetroofpitch = (pitch) => {
-    console.log("handlesetroofpitch", pitch);
     setInputPowerCon((preval) => ({ ...preval, pitch: pitch }));
     // setAnimDirection({ ...animDirection, direction: direction });
     setRoofPitch(pitch);
@@ -125,7 +123,6 @@ export default function RootArea(props) {
   const handleSetRoofType = (rooftype) => {
     if (rooftype === "Flachdach") {
       setInputPowerCon({ ...inputPowerCon, pitch: "0", rooftype: rooftype });
-      console.log("FlachdachFlachdach++++++");
     }
     if (rooftype === "Satteldach") {
       setInputPowerCon((preval) => ({
@@ -133,7 +130,6 @@ export default function RootArea(props) {
         pitch: "40",
         rooftype: rooftype,
       }));
-      console.log("Satteldach Satteldach");
     }
     if (rooftype === "Pultdach") {
       setInputPowerCon((preval) => ({
@@ -141,7 +137,6 @@ export default function RootArea(props) {
         pitch: "30",
         rooftype: rooftype,
       }));
-      console.log("Pultdach Pultdach");
     } else {
       setInputPowerCon((preval) => ({ ...preval, rooftype: rooftype }));
     }
@@ -410,7 +405,7 @@ export default function RootArea(props) {
       }
     },
   });
-  useEffect(() => {});
+  useEffect(() => { });
   function setDeg(element, value, direction) {
     element.style.transform = "rotate(" + value + "deg" + ")";
 
@@ -431,9 +426,9 @@ export default function RootArea(props) {
     return angle - startAngle;
   }
 
-  const handlechangetab=()=>{
+  const handlechangetab = () => {
     setOpenTab("A");
-    setCheckTab(checkTab.filter((data)=>data!=openTab))
+    setCheckTab(checkTab.filter((data) => data != openTab))
   }
   return (
     <div className="rootArea-content-left-alignment">
@@ -700,7 +695,7 @@ export default function RootArea(props) {
                               type="text"
                               // placeholder="S"
                               value={inputPowerCon.direction}
-                              // onChange={(e) =>console.log(e.target.value,"****")}
+                            // onChange={(e) =>console.log(e.target.value,"****")}
                             />
 
                             <div className={dropdowncompass ? "input-dropdown input-dropdown-show" : "input-dropdown input-dropdown-hidden"}>
@@ -737,11 +732,11 @@ export default function RootArea(props) {
                               <div
                                 className="child-img-alignment"
 
-                                // onMouseDown={(e) => handleMouseDown(e)}
-                                // onMouseMove={(e) => {
-                                //   angleData && handleMouseMove(e);
-                                // }}
-                                // onMouseUp={(e) => handleMouseEnd(e)}
+                              // onMouseDown={(e) => handleMouseDown(e)}
+                              // onMouseMove={(e) => {
+                              //   angleData && handleMouseMove(e);
+                              // }}
+                              // onMouseUp={(e) => handleMouseEnd(e)}
                               >
                                 <img
                                   // style={{ pointerEvents: "none" }}
@@ -752,8 +747,8 @@ export default function RootArea(props) {
                                   alt="Compass"
                                   className="drag-rotate"
 
-                                  // className={rotationalDir === inputPowerCon.direction ? "animate__animated animate__rotateIn" : ""}
-                                  // data-wow-offset="140"
+                                // className={rotationalDir === inputPowerCon.direction ? "animate__animated animate__rotateIn" : ""}
+                                // data-wow-offset="140"
                                 />
                               </div>
                             </div>
@@ -941,7 +936,7 @@ export default function RootArea(props) {
                       <button
                         onClick={() => {
                           handlechangetab()
-                         
+
                         }}
                       >
                         Zurück

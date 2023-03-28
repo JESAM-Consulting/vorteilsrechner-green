@@ -178,7 +178,8 @@ export default function Contact(props) {
         requirementPerYear: inputPowerCon.requirementPerYear,
         terms: inputPowerCon.terms,
         total20yearSavings: inputPowerCon.total20yearSavings,
-        // leadherkunft: "https://ekdfunnel.netlify.app/",
+        Leadherkunft: "https://ekdfunnel.netlify.app/",
+        project: "solar-green",
 
         //       totalPeople: inputPowerCon.members,
         //       electricityRequirement: inputPowerCon.requirementPerYear,
