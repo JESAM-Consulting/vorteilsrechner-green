@@ -3,7 +3,7 @@ const host = "api.solar-energy.rejoicehub.com/api/v1";
 
 
 // const protocol = "http";
-// const host = "192.168.29.159:3003/energy-solar/v1";
+// const host = "abe7-2405-201-200d-1c68-e20d-9416-8bde-8139.ngrok.io/vorteli/api/v1";
 
 const port = "";
 const trailUrl = "";

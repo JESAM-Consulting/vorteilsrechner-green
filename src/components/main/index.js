@@ -47,7 +47,7 @@ export default function MainPage() {
 
       {openTab === "A" && (
         <Home
-        openTab={openTab}
+          openTab={openTab}
           setOpenTab={setOpenTab}
           setInputPowerCon={setInputPowerCon}
           inputPowerCon={inputPowerCon}
@@ -55,7 +55,7 @@ export default function MainPage() {
       )}
       {openTab === "B" && (
         <RootArea
-        openTab={openTab}
+          openTab={openTab}
           setOpenTab={setOpenTab}
           setInputPowerCon={setInputPowerCon}
           inputPowerCon={inputPowerCon}
@@ -63,7 +63,7 @@ export default function MainPage() {
       )}
       {openTab === "C" && (
         <DetermineRootArea
-        openTab={openTab}
+          openTab={openTab}
           setOpenTab={setOpenTab}
           setInputPowerCon={setInputPowerCon}
           inputPowerCon={inputPowerCon}
@@ -71,7 +71,7 @@ export default function MainPage() {
       )}
       {openTab === "D" && (
         <MoreOption
-        openTab={openTab}
+          openTab={openTab}
           setOpenTab={setOpenTab}
           setInputPowerCon={setInputPowerCon}
           inputPowerCon={inputPowerCon}
@@ -79,7 +79,7 @@ export default function MainPage() {
       )}
       {openTab === "E" && (
         <SolarSavings
-        openTab={openTab}
+          openTab={openTab}
           setOpenTab={setOpenTab}
           setInputPowerCon={setInputPowerCon}
           inputPowerCon={inputPowerCon}
@@ -87,7 +87,7 @@ export default function MainPage() {
       )}
       {openTab === "F" && (
         <Contact
-        openTab={openTab}
+          openTab={openTab}
           setOpenTab={setOpenTab}
           setInputPowerCon={setInputPowerCon}
           inputPowerCon={inputPowerCon}
@@ -95,7 +95,7 @@ export default function MainPage() {
       )}
       {openTab === "G" && (
         <ThankyouRequest
-        openTab={openTab}
+          openTab={openTab}
           setOpenTab={setOpenTab}
           setInputPowerCon={setInputPowerCon}
           inputPowerCon={inputPowerCon}

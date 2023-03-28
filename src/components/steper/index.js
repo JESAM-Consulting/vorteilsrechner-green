@@ -11,7 +11,6 @@ export default function Steper() {
   const [openTab, setOpenTab] = useAtom(staperAtom);
 
   const [checkTab, setCheckTab] = useAtom(steperArray);
-  console.log("checkTab",checkTab)
   useEffect(() => {
     window.scrollTo({
       top: 0,
@@ -53,7 +52,7 @@ export default function Steper() {
                   }
                 }}
               >
-                <div className={openTab === "A" ? " active" :checkTab?.includes("A")? "light-orange" :""}>1</div>
+                <div className={openTab === "A" ? " active" : checkTab?.includes("A") ? "light-orange" : ""}>1</div>
                 <div>
                   <span>Stromverbrauch</span>
                 </div>
@@ -68,7 +67,7 @@ export default function Steper() {
               >
                 <div
                   className={
-                    openTab === "B" || openTab === "C" ? " active" : checkTab?.includes("B") || checkTab?.includes("C")? "light-orange" :""
+                    openTab === "B" || openTab === "C" ? " active" : checkTab?.includes("B") || checkTab?.includes("C") ? "light-orange" : ""
                   }
                 >
                   2
@@ -85,7 +84,7 @@ export default function Steper() {
                   }
                 }}
               >
-                <div className={openTab === "D" ? " active" : checkTab?.includes("D")? "light-orange" :""}>3</div>
+                <div className={openTab === "D" ? " active" : checkTab?.includes("D") ? "light-orange" : ""}>3</div>
                 <div>
                   <span>Optionen</span>
                 </div>
@@ -98,7 +97,7 @@ export default function Steper() {
                   }
                 }}
               >
-                <div className={openTab === "E" ? " active" : checkTab?.includes("E")? "light-orange" :""}>4</div>
+                <div className={openTab === "E" ? " active" : checkTab?.includes("E") ? "light-orange" : ""}>4</div>
                 <div>
                   <span>Solar-Ersparnis</span>
                 </div>
@@ -113,7 +112,7 @@ export default function Steper() {
               >
                 <div
                   className={
-                    openTab === "F" || openTab === "G" ? " active" : checkTab?.includes("F")||checkTab?.includes("G") ? "light-orange" :""
+                    openTab === "F" || openTab === "G" ? " active" : checkTab?.includes("F") || checkTab?.includes("G") ? "light-orange" : ""
                   }
                 >
                   5
@@ -144,7 +143,7 @@ export default function Steper() {
           <div className="sidebar-box-alignment">
             <div
               className={
-                openTab === "A" ? " steper-details active" :checkTab?.includes("A")? " steper-details light-orange" :"steper-details"
+                openTab === "A" ? " steper-details active" : checkTab?.includes("A") ? " steper-details light-orange" : "steper-details"
               }
               onClick={() => {
                 if (checkTab?.includes("A")) {
@@ -162,8 +161,8 @@ export default function Steper() {
             <div
               className={
                 openTab === "B" || openTab === "C"
-                  ? " steper-details active":
-                  checkTab?.includes("B") || checkTab?.includes("C")? " steper-details light-orange" : " steper-details"
+                  ? " steper-details active" :
+                  checkTab?.includes("B") || checkTab?.includes("C") ? " steper-details light-orange" : " steper-details"
               }
               onClick={() => {
                 if (checkTab?.includes("B")) {
@@ -180,7 +179,7 @@ export default function Steper() {
             </div>
             <div
               className={
-                openTab === "D" ? " steper-details active" : checkTab?.includes("D")?" steper-details light-orange ":" steper-details"
+                openTab === "D" ? " steper-details active" : checkTab?.includes("D") ? " steper-details light-orange " : " steper-details"
               }
               onClick={() => {
                 if (checkTab?.includes("D")) {
@@ -198,7 +197,7 @@ export default function Steper() {
 
             <div
               className={
-                openTab === "E" ? " steper-details active" : checkTab?.includes("E")?" steper-details light-orange ":" steper-details"
+                openTab === "E" ? " steper-details active" : checkTab?.includes("E") ? " steper-details light-orange " : " steper-details"
               }
               onClick={() => {
                 if (checkTab?.includes("E")) {
@@ -218,7 +217,7 @@ export default function Steper() {
               className={
                 openTab === "F" || openTab === "G"
                   ? " steper-details active"
-                  : checkTab?.includes("F") || checkTab?.includes("G")? " steper-details light-orange" : " steper-details"
+                  : checkTab?.includes("F") || checkTab?.includes("G") ? " steper-details light-orange" : " steper-details"
               }
               onClick={() => {
                 if (checkTab?.includes("F")) {
@@ -242,16 +241,16 @@ export default function Steper() {
             openTab === "A"
               ? "stper-border-active step1"
               : openTab === "B"
-              ? "stper-border-active step2"
-              : openTab === "C"
-              ? "stper-border-active step2"
-              : openTab === "D"
-              ? "stper-border-active step3"
-              : openTab === "E"
-              ? "stper-border-active step4"
-              : openTab === "F"
-              ? "stper-border-active step5"
-              : "stper-border-active step5"
+                ? "stper-border-active step2"
+                : openTab === "C"
+                  ? "stper-border-active step2"
+                  : openTab === "D"
+                    ? "stper-border-active step3"
+                    : openTab === "E"
+                      ? "stper-border-active step4"
+                      : openTab === "F"
+                        ? "stper-border-active step5"
+                        : "stper-border-active step5"
           }
         ></div>
       </div>

@@ -11,7 +11,7 @@ import { useAtom } from "jotai";
 import { steperArray } from "../../helpers/Atom/StaperAtom";
 
 export default function Contact(props) {
-  const { setOpenTab, inputPowerCon, setInputPowerCon,openTab } = props;
+  const { setOpenTab, inputPowerCon, setInputPowerCon, openTab } = props;
   const [dropdownHidden1, setDropdownHidden1] = useState(false);
   const [checkTab, setCheckTab] = useAtom(steperArray);
 
@@ -94,62 +94,15 @@ export default function Contact(props) {
     return formIsValid;
   };
 
-  const config = {
-    headers: {
-      "X-API-Account": "394078",
-      "X-API-Key":
-        "OiIwMDAwLNYyJ9.eyJhdWQiqx3425OiJSUzI1NiIqwdTAwMDAtYzAwMC0wMDAwMDAwMDAwMDAiLCJpc3MiOiJodHRwc3aW5kb3dzLmwMDAwMDAwMy05ldC85MjNkZhbGciqdHTmd2UUsIng1dCI6ImpTMVhvMU9XRGpfNTJ2YndHTmgsdgd2UU8yqnpNYyIsImtpZCI6ImpTMVhvMU9XRGpfNTJ2Yn8yVnp",
-    },
-  };
+  // const config = {
+  //   headers: {
+  //     "X-API-Account": "394078",
+  //     "X-API-Key":
+  //       "OiIwMDAwLNYyJ9.eyJhdWQiqx3425OiJSUzI1NiIqwdTAwMDAtYzAwMC0wMDAwMDAwMDAwMDAiLCJpc3MiOiJodHRwc3aW5kb3dzLmwMDAwMDAwMy05ldC85MjNkZhbGciqdHTmd2UUsIng1dCI6ImpTMVhvMU9XRGpfNTJ2YndHTmgsdgd2UU8yqnpNYyIsImtpZCI6ImpTMVhvMU9XRGpfNTJ2Yn8yVnp",
+  //   },
+  // };
 
-  const handleSubmitToFE = async () => {
-    window.scrollTo({
-      top: 0,
-      left: 0,
-      behavior: "smooth",
-    });
-    if (validateForm()) {
-      setLoader(true);
-      const data = {
-        name_komplett: inputPowerCon.username,
-        plz: inputPowerCon.pincode,
-        ort: inputPowerCon.location,
-        telefon: inputPowerCon.phone,
-        email: inputPowerCon.mail,
-        stromverbrauch: inputPowerCon.eConsumption,
-        dachform: inputPowerCon.rooftype,
-        erreichbarkeit: inputPowerCon.time,
-        leadherkunft: "https://ekdfunnel.netlify.app/",
-        // anrede: ,
-        // vorname: ,
-        // nachname: ,
-        // strasse_nr: ,
-        // eigentuemer: ,
-        // interesse_finanzierung: ,
-        // art_des_gebaeudes: ,
-        // art_dacheindeckung: ,
-        // art_heizung: ,
-        // totalPeople: inputPowerCon.members,
-        // electricityRequirement: inputPowerCon.requirementPerYear,
-      };
-      await axios
-        .post(`https://fe-partnerportal.de/FE_API/lead_api/v1/lead`, data, config)
-        .then((res) => {
-          setLoader(false);
-          // console.log("res", res);
-          setOpenTab("G");
-          // toast.success("Daten übermittelt");
-          localStorage.removeItem("solar");
-        })
-        .catch((err) => {
-          setLoader(false);
-          toast.error("E-Mail oder Handy bereits vorhanden");
-          // console.log("err.message", err.response.data.message);
-        });
-    }
-  };
-
-  // const handleSubmit = async () => {
+  // const handleSubmitToFE = async () => {
   //   window.scrollTo({
   //     top: 0,
   //     left: 0,
@@ -158,58 +111,135 @@ export default function Contact(props) {
   //   if (validateForm()) {
   //     setLoader(true);
   //     const data = {
-  //       totalPeople: inputPowerCon.members,
-  //       electricityRequirement: inputPowerCon.requirementPerYear,
-  //       electricityPrice: inputPowerCon.currntPrice,
-  //       MonthlyFee: inputPowerCon.Monthlyprice,
-  //       location: inputPowerCon.location,
-  //       roofLength: inputPowerCon.areaofRoof,
-  //       roofWidth: inputPowerCon.areaofRoof,
-  //       roofType: inputPowerCon.rooftype,
-  //       roofOrientation: inputPowerCon.directions,
-  //       roofArea: inputPowerCon.roofArea,
-  //       storage: inputPowerCon?.moreOptions?.includes("Speicher"),
-  //       warmth: inputPowerCon?.moreOptions?.includes("Warme"),
-  //       eMobility: inputPowerCon?.moreOptions?.includes("EMobility"),
-  //       eMobilityMessage: inputPowerCon.KM,
-  //       userName: inputPowerCon.username,
-  //       userAvailableTime: inputPowerCon.time,
-  //       contactNo: inputPowerCon.phone,
-  //       userEmail: inputPowerCon.mail,
-  //       message: inputPowerCon.message,
-  //       address: inputPowerCon.address ? inputPowerCon.address : false,
-  //       lettestNews: inputPowerCon.Lnews ? inputPowerCon.Lnews : false,
-  //       agreement: inputPowerCon.agreement ? inputPowerCon.agreement : false,
-  //       terms: inputPowerCon.terms ? inputPowerCon.terms : false,
-  //       total20yearSavings: inputPowerCon.total20yearSavings,
+  //       name_komplett: inputPowerCon.username,
+  //       plz: inputPowerCon.pincode,
+  //       ort: inputPowerCon.location,
+  //       telefon: inputPowerCon.phone,
+  //       email: inputPowerCon.mail,
+  //       stromverbrauch: inputPowerCon.eConsumption,
+  //       dachform: inputPowerCon.rooftype,
+  //       erreichbarkeit: inputPowerCon.time,
+  //       leadherkunft: "https://ekdfunnel.netlify.app/",
+  //       // anrede: ,
+  //       // vorname: ,
+  //       // nachname: ,
+  //       // strasse_nr: ,
+  //       // eigentuemer: ,
+  //       // interesse_finanzierung: ,
+  //       // art_des_gebaeudes: ,
+  //       // art_dacheindeckung: ,
+  //       // art_heizung: ,
+  //       // totalPeople: inputPowerCon.members,
+  //       // electricityRequirement: inputPowerCon.requirementPerYear,
   //     };
-
-  //     await ApiPost(`create-solar-saving`, data)
+  //     await axios
+  //       .post(`https://fe-partnerportal.de/FE_API/lead_api/v1/lead`, data, config)
   //       .then((res) => {
+  //         setLoader(false);
   //         // console.log("res", res);
-  //         // localStorage.setItem("solar", JSON.stringify(inputPowerCon));
   //         setOpenTab("G");
   //         // toast.success("Daten übermittelt");
   //         localStorage.removeItem("solar");
-  //         setLoader(false);
-  //         // console.log("res", res);
   //       })
   //       .catch((err) => {
   //         setLoader(false);
-  //         // console.log("err", err.response.data.message);
   //         toast.error("E-Mail oder Handy bereits vorhanden");
+  //         // console.log("err.message", err.response.data.message);
   //       });
   //   }
   // };
+
+  const handleSubmit = async () => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
+    if (validateForm()) {
+      setLoader(true);
+      const data = {
+        username: inputPowerCon.username,
+        email: inputPowerCon.mail,
+        rooftype: inputPowerCon.rooftype,
+        phone: inputPowerCon.phone,
+        pincode: inputPowerCon.pincode,
+        location: inputPowerCon.location,
+        eConsumption: inputPowerCon.eConsumption,
+        time: inputPowerCon.time,
+        Lnews: inputPowerCon.Lnews,
+        Monthlyprice: inputPowerCon?.Monthlyprice,
+        agreement: inputPowerCon.agreement,
+        areaofRoof: inputPowerCon.areaofRoof,
+        currntPrice: inputPowerCon.currntPrice,
+        direction: inputPowerCon.direction,
+        members: inputPowerCon.members,
+        message: inputPowerCon.message,
+        pitch: inputPowerCon.pitch,
+        requirementPerYear: inputPowerCon.requirementPerYear,
+        terms: inputPowerCon.terms,
+        total20yearSavings: inputPowerCon.total20yearSavings,
+        // leadherkunft: "https://ekdfunnel.netlify.app/",
+
+        //       totalPeople: inputPowerCon.members,
+        //       electricityRequirement: inputPowerCon.requirementPerYear,
+        //       electricityPrice: inputPowerCon.currntPrice,
+        //       MonthlyFee: inputPowerCon.Monthlyprice,
+        //       location: inputPowerCon.location,
+        //       roofLength: inputPowerCon.areaofRoof,
+        //       roofWidth: inputPowerCon.areaofRoof,
+        //       roofOrientation: inputPowerCon.directions,
+        //       roofArea: inputPowerCon.roofArea,
+        //       storage: inputPowerCon?.moreOptions?.includes("Speicher"),
+        //       warmth: inputPowerCon?.moreOptions?.includes("Warme"),
+        //       eMobility: inputPowerCon?.moreOptions?.includes("EMobility"),
+        //       eMobilityMessage: inputPowerCon.KM,
+        //       userAvailableTime: inputPowerCon.time,
+        //       message: inputPowerCon.message,
+        //       address: inputPowerCon.address ? inputPowerCon.address : false,
+        //       lettestNews: inputPowerCon.Lnews ? inputPowerCon.Lnews : false,
+        //       agreement: inputPowerCon.agreement ? inputPowerCon.agreement : false,
+        //       terms: inputPowerCon.terms ? inputPowerCon.terms : false,
+        //       total20yearSavings: inputPowerCon.total20yearSavings,
+      };
+
+      await ApiPost(`userForm/create`, data)
+        .then((res) => {
+          console.log("res", res);
+          // localStorage.setItem("solar", JSON.stringify(inputPowerCon));
+          // toast.success("Daten übermittelt");
+          localStorage.removeItem("solar");
+          setLoader(false);
+          // console.log("res", res);
+        })
+        .catch((err) => {
+          setLoader(false);
+          console.log("err", err?.response?.data?.message);
+          toast.error(err?.response?.data?.message);
+        });
+
+      // await axios.post(`https://abe7-2405-201-200d-1c68-e20d-9416-8bde-8139.ngrok.iovorteli/api/v1/userForm/create`, data).then((res) => {
+      //   console.log("res", res);
+      //   // localStorage.setItem("solar", JSON.stringify(inputPowerCon));
+      //   // toast.success("Daten übermittelt");
+      //   localStorage.removeItem("solar");
+      //   setLoader(false);
+      //   // console.log("res", res);
+      // }).catch((err) => {
+      //   setLoader(false);
+      //   console.log("err", err);
+      //   toast.error("E-Mail oder Handy bereits vorhanden");
+      // });
+    }
+  };
 
   const handleSetMember = (item) => {
     setInputPowerCon({ ...inputPowerCon, ["time"]: item });
     setDropdownHidden1(!dropdownHidden1);
     setErrors({ ...errors, ["time"]: "" });
   };
-  const handlechangetab=()=>{
+  const handlechangetab = () => {
     setOpenTab("E");
-    setCheckTab(checkTab.filter((data)=>data!=openTab))
+    setCheckTab(checkTab.filter((data) => data != openTab))
   }
   return (
     <div className="contact-content-left-alignment">
@@ -485,7 +515,7 @@ export default function Contact(props) {
                   <button
                     onClick={() => {
                       handlechangetab()
-                     
+
                     }}
                   >
                     Zurück
@@ -493,7 +523,7 @@ export default function Contact(props) {
                   <button
                     onClick={() => {
                       // handleSubmit();
-                      handleSubmitToFE();
+                      handleSubmit();
                     }}
                   >
                     Anfrage senden
@@ -522,3 +552,25 @@ export default function Contact(props) {
     </div>
   );
 }
+
+
+// salutation
+// firstname - surname => 2 in 1
+// street
+//owner
+//isLiveInOwnProperty
+// interestfunding
+// typeofbuilding
+// typeroofcovering
+// typeheating
+// remarks
+
+
+// DONE
+// location = location
+// phone = phone
+// email = mail
+// powerconsuption = eConsumption
+// reachability = time
+// roofshape = rooftype
+// postcode = pincode
