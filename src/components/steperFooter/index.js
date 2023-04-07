@@ -13,7 +13,7 @@ export default function SteperFooter() {
               <i class="fa-solid fa-left-long"></i>
               <a
                 className="spanlink"
-                href="https://www.ekd-solar.de"
+                href="https://www.encrease.energy"
                 target={"_blank"}
                 rel="noreferrer"
               >
@@ -22,18 +22,18 @@ export default function SteperFooter() {
             </div>
             <div className="footer-link">
               <div className="footer-link-alignment">
-                <NavLink to="/datenschutzerklaerung">
+                <a href="https://www.encrease.energy/datenschutz" target={"_blank"}>
                   Datenschutzerklärung
-                </NavLink>
+                </a>
               </div>
               <div className="footer-link-alignment mobile-view-alignment">
                 <div>
-                  <NavLink to="/impressum">Impressum</NavLink>
+                  <a href="https://www.encrease.energy/impressum" target={"_blank"}>Impressum</a>
                 </div>
                 <div className="footer-link-alignment">
                   <div className="facebook-icon">
                     <a
-                      href="https://www.facebook.com/Solaranlagenbauer"
+                      href="https://www.facebook.com/profile.php?id=100090529813256"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -42,7 +42,7 @@ export default function SteperFooter() {
                   </div>
                   <div className="instragram-icon">
                     <a
-                      href="https://www.instagram.com/ekd_solar/"
+                      href="https://www.instagram.com/encrease.energy/"
                       target="_blank"
                       rel="noreferrer"
                     >

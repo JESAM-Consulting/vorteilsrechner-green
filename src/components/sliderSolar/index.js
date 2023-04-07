@@ -108,8 +108,7 @@ export default function SliderSolar() {
                             </div>
                             <div className="benifite-solar-details-text">
                               <p>
-                                Mit eigener Solarenergie deckst du bis zu 85%
-                                deines Eigenbedarfs.
+                                Wer auf Solarenergie setzt, ist unabhängig von teuren Energieversorgern  und kann seinen Strombedarf zu bis zu 80% selbst decken.
                               </p>
                             </div>
                           </div>
@@ -120,12 +119,11 @@ export default function SliderSolar() {
                           </div>
                           <div className="benifite-solar-details">
                             <div className="benifite-solar-details-heading">
-                              <h4>Kosten sparen</h4>
+                              <h4>Kosteneffizienz</h4>
                             </div>
                             <div className="benifite-solar-details-text">
                               <p>
-                                Langfristige Senkung deiner Stromkosten und
-                                Steuervergünstigungen.
+                                Mit erneuerbarer Energie lassen sich langfristig Stromkosten senken und zudem Steuervorteile nutzen.
                               </p>
                             </div>
                           </div>
@@ -140,7 +138,7 @@ export default function SliderSolar() {
                             </div>
                             <div className="benifite-solar-details-text">
                               <p>
-                                Schutz der Umwelt durch erneuerbare Energie.
+                                Die Verwendung von Solarenergie schont die Umwelt und trägt zum Klimaschutz bei.
                               </p>
                             </div>
                           </div>
@@ -155,8 +153,7 @@ export default function SliderSolar() {
                             </div>
                             <div className="benifite-solar-details-text">
                               <p>
-                                Wertsteigerung deiner Immobilie durch innovative
-                                Solarprodukte.
+                                Eine Photovoltaikanlage erhöht den Immobilienwert und fördert die Energieeffizienz.
                               </p>
                             </div>
                           </div>
@@ -164,7 +161,7 @@ export default function SliderSolar() {
                       </div>
                     </div>
                     <div>
-                      <h4>Maximale Sicherheit- bei minimalem Risiko</h4>
+                      <h4>Sicherheit & Schutz</h4>
                       <div className="benifite-solar-notes-alignment">
                         <p>Alles auf 20 Jahre abgesichert:</p>
                       </div>
@@ -179,8 +176,7 @@ export default function SliderSolar() {
                             </div>
                             <div className="benifite-solar-details-text">
                               <p>
-                                Finanzielle Absicherung durch maßgeschneiderte
-                                Finanzierungsmodelle.
+                                Sichern Sie Ihre Investition mit unseren maßgeschneiderten Finanzierungsmodellen und unserem Finanzierungspartner Forward Finance ab.
                               </p>
                             </div>
                           </div>
@@ -195,7 +191,7 @@ export default function SliderSolar() {
                             </div>
                             <div className="benifite-solar-details-text">
                               <p>
-                                Garantie auf Solarmodule und weitere Produkte.
+                                Bis zu 30 Jahre Garantie auf Ihre PV-Anlage und Komponente.
                               </p>
                             </div>
                           </div>
@@ -206,11 +202,11 @@ export default function SliderSolar() {
                           </div>
                           <div className="benifite-solar-details">
                             <div className="benifite-solar-details-heading">
-                              <h4>Montagegarantie</h4>
+                              <h4>Überwachung</h4>
                             </div>
                             <div className="benifite-solar-details-text">
                               <p>
-                                Sichere und professionelle Montage garantiert.
+                                Durch die Solar App einfache Überwachung Ihrer Anlage von überall.
                               </p>
                             </div>
                           </div>
@@ -218,7 +214,7 @@ export default function SliderSolar() {
                       </div>
                     </div>
                     <div>
-                      <h4>Unser Versprechen</h4>
+                      <h4>Jetzt noch mehr machen</h4>
                       {/* <div className="benifite-solar-notes-alignment">
                           <p>Alles auf 20 Jahre abgesichert:</p>
                         </div> */}
@@ -229,12 +225,11 @@ export default function SliderSolar() {
                           </div>
                           <div className="benifite-solar-details">
                             <div className="benifite-solar-details-heading">
-                              <h4>Unabhängigkeit</h4>
+                              <h4>Dynamischer Strombezug</h4>
                             </div>
                             <div className="benifite-solar-details-text">
                               <p>
-                                Mit eigener Solarenergie deckst du bis zu 85%
-                                deines Eigenbedarfs.
+                                Beziehen Sie Ihren Strom dynamisch von der Börse und nutzen Sie ihn genau dann, wenn Sie ihn benötigen.
                               </p>
                             </div>
                           </div>
@@ -245,12 +240,11 @@ export default function SliderSolar() {
                           </div>
                           <div className="benifite-solar-details">
                             <div className="benifite-solar-details-heading">
-                              <h4>Kosten sparen</h4>
+                              <h4>Direktvermarktung</h4>
                             </div>
                             <div className="benifite-solar-details-text">
                               <p>
-                                Langfristige Senkung deiner Stromkosten und
-                                Steuervergünstigungen.
+                                Durch den verkauf an der Börse erhält du bist zu 300% mehr als die gesetzliche Einspeise (EEG)
                               </p>
                             </div>
                           </div>
@@ -261,11 +255,11 @@ export default function SliderSolar() {
                           </div>
                           <div className="benifite-solar-details">
                             <div className="benifite-solar-details-heading">
-                              <h4>Nachhaltigkeit</h4>
+                              <h4>Notstrom</h4>
                             </div>
                             <div className="benifite-solar-details-text">
                               <p>
-                                Schutz der Umwelt durch erneuerbare Energie.
+                                Durch das EnCrease Notfall Konzept versorgst du dich auch bei Netzausfällen weiter selbst
                               </p>
                             </div>
                           </div>
@@ -288,7 +282,7 @@ export default function SliderSolar() {
                         </div>
                       </div>
                     </div>
-                    <div>
+                    {/* <div>
                       <h4>Professionell & aus einer Hand</h4>
                       <div className="benifite-solar-notes-alignment">
                         <p>Alles auf 20 Jahre abgesichert:</p>
@@ -341,7 +335,7 @@ export default function SliderSolar() {
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                   </Slider>
                 </div>
               </div>
@@ -379,8 +373,7 @@ export default function SliderSolar() {
                   </div>
                   <div className="benefit-details-alignment">
                     <span>
-                      Mit eigener Solarenergie deckst du bis zu 85% deines
-                      Eigenbedarfs.{" "}
+                      Wer auf Solarenergie setzt, ist unabhängig von teuren Energieversorgern  und kann seinen Strombedarf zu bis zu 80% selbst decken.
                     </span>
                   </div>
                 </div>
@@ -389,12 +382,11 @@ export default function SliderSolar() {
                     <img src={SliderIcon2} alt="SliderIcon2" />
                   </div>
                   <div className="benfite-heading-alignment">
-                    <h4>Kosten sparen</h4>
+                    <h4>Kosteneffizienz</h4>
                   </div>
                   <div className="benefit-details-alignment">
                     <span>
-                      Langfristige Senkung deiner Stromkosten und
-                      Steuervergünstigungen.
+                      Mit erneuerbarer Energie lassen sich langfristig Stromkosten senken und zudem Steuervorteile nutzen.
                     </span>
                   </div>
                 </div>
@@ -406,7 +398,7 @@ export default function SliderSolar() {
                     <h4>Nachhaltigkeit</h4>
                   </div>
                   <div className="benefit-details-alignment">
-                    <span>Schutz der Umwelt durch erneuerbare Energie.</span>
+                    <span>Die Verwendung von Solarenergie schont die Umwelt und trägt zum Klimaschutz bei.</span>
                   </div>
                 </div>
                 <div className="benefit-details-flex-alignment">
@@ -418,8 +410,7 @@ export default function SliderSolar() {
                   </div>
                   <div className="benefit-details-alignment">
                     <span>
-                      Wertsteigerung deiner Immobilie durch innovative
-                      Solarprodukte.{" "}
+                      Eine Photovoltaikanlage erhöht den Immobilienwert und fördert die Energieeffizienz.
                     </span>
                   </div>
                 </div>
@@ -432,7 +423,7 @@ export default function SliderSolar() {
               onClick={() => setBenifiteDetails1(!showBenifiteDetails1)}
             >
               <div className="mobile-heading-name">
-                <h4>Maximale Sicherheit- bei minimalem Risiko</h4>
+                <h4>Sicherheit & Schutz</h4>
               </div>
               <div className="dropdown-alignment-icon">
                 {showBenifiteDetails1 === true ? (
@@ -453,8 +444,7 @@ export default function SliderSolar() {
                   </div>
                   <div className="benefit-details-alignment">
                     <span>
-                      Finanzielle Absicherung durch maßgeschneiderte
-                      Finanzierungsmodelle.
+                      Sichern Sie Ihre Investition mit unseren maßgeschneiderten Finanzierungsmodellen und unserem Finanzierungspartner Forward Finance ab.
                     </span>
                   </div>
                 </div>
@@ -466,7 +456,7 @@ export default function SliderSolar() {
                     <h4>Produktgarantie</h4>
                   </div>
                   <div className="benefit-details-alignment">
-                    <span>Garantie auf Solarmodule und weitere Produkte.</span>
+                    <span>Bis zu 30 Jahre Garantie auf Ihre PV-Anlage und Komponente.</span>
                   </div>
                 </div>
                 <div className="benefit-details-flex-alignment">
@@ -474,10 +464,10 @@ export default function SliderSolar() {
                     <img src={SliderIcon7} alt="SliderIcon7" />
                   </div>
                   <div className="benfite-heading-alignment">
-                    <h4>Montagegarantie</h4>
+                    <h4>Überwachung</h4>
                   </div>
                   <div className="benefit-details-alignment">
-                    <span>Sichere und professionelle Montage garantiert.</span>
+                    <span>Durch die Solar App einfache Überwachung Ihrer Anlage von überall.</span>
                   </div>
                 </div>
               </div>
@@ -490,7 +480,7 @@ export default function SliderSolar() {
               onClick={() => setBenifiteDetails2(!showBenifiteDetails2)}
             >
               <div className="mobile-heading-name">
-                <h4>Unser Versprechen</h4>
+                <h4>Jetzt noch mehr machen</h4>
               </div>
               <div className="dropdown-alignment-icon">
                 <img src={Dropdown} alt="Dropdown" />
@@ -503,12 +493,11 @@ export default function SliderSolar() {
                     <img src={SliderIcon1} alt="SliderIcon1" />
                   </div>
                   <div className="benfite-heading-alignment">
-                    <h4>Unabhängigkeit</h4>
+                    <h4>Dynamischer Strombezug</h4>
                   </div>
                   <div className="benefit-details-alignment">
                     <span>
-                      Mit eigener Solarenergie deckst du bis zu 85% deines
-                      Eigenbedarfs.{" "}
+                      Beziehen Sie Ihren Strom dynamisch von der Börse und nutzen Sie ihn genau dann, wenn Sie ihn benötigen.
                     </span>
                   </div>
                 </div>
@@ -517,12 +506,11 @@ export default function SliderSolar() {
                     <img src={SliderIcon2} alt="SliderIcon2" />
                   </div>
                   <div className="benfite-heading-alignment">
-                    <h4>Kosten sparen</h4>
+                    <h4>Direktvermarktung</h4>
                   </div>
                   <div className="benefit-details-alignment">
                     <span>
-                      Langfristige Senkung deiner Stromkosten und
-                      Steuervergünstigungen.
+                      Durch den verkauf an der Börse erhält du bist zu 300% mehr als die gesetzliche Einspeise (EEG)
                     </span>
                   </div>
                 </div>
@@ -531,10 +519,10 @@ export default function SliderSolar() {
                     <img src={SliderIcon3} alt="SliderIcon3" />
                   </div>
                   <div className="benfite-heading-alignment">
-                    <h4>Nachhaltigkeit</h4>
+                    <h4>Notstrom</h4>
                   </div>
                   <div className="benefit-details-alignment">
-                    <span>Schutz der Umwelt durch erneuerbare Energie.</span>
+                    <span>Durch das EnCrease Notfall Konzept versorgst du dich auch bei Netzausfällen weiter selbst</span>
                   </div>
                 </div>
                 <div className="benefit-details-flex-alignment">
@@ -555,7 +543,7 @@ export default function SliderSolar() {
             )}
           </div>
 
-          <div className="mobile-view-flex-alignment">
+          {/* <div className="mobile-view-flex-alignment">
             <div
               className="mobile-view-child-details"
               onClick={() => setBenifiteDetails3(!showBenifiteDetails3)}
@@ -607,7 +595,7 @@ export default function SliderSolar() {
                 </div>
               </div>
             )}
-          </div>
+          </div> */}
         </div>
       </div>
     </>
