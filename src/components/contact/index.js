@@ -511,7 +511,7 @@ export default function Contact(props) {
                       </div>
                       <div>
                         <p>
-                          lch habe die AGB und Datenschutzbestimmungen gelesen und akzeptiert. Es gelten die Datenschutzbedingungen der Encrease Energy GmbH. *
+                          lch habe die <b>AGB</b> und <b>Datenschutzbestimmungen</b> gelesen und akzeptiert. Es gelten die Datenschutzbedingungen der Encrease Energy GmbH. *
                         </p>
                         <div className="error-alignment">
                           <span>{errors?.terms}</span>
