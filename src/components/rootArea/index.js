@@ -29,7 +29,7 @@ import btn13 from "../../assets/image/d7.svg";
 import btn12 from "../../assets/image/d8.svg";
 
 import SliderSolar from "../sliderSolar";
-import SideImg from "../../assets/image/Page2.jpg";
+import SideImg from "../../assets/image/Page2.png";
 // import { usePlacesWidget } from "react-google-autocomplete";
 import useGoogle from "react-google-autocomplete/lib/usePlacesAutocompleteService";
 import Geocode from "react-geocode";

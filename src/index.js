@@ -14,7 +14,8 @@ ReactDOM.render(
   <React.StrictMode>
     <div>
       <Helmet>
-        <meta name="description" content="Deine Energiezukunft." />
+        <title>Erneuerbare Energien: Solarmodule und Solartechnik von EnCrease</title>
+        <meta name="description" content="Steigern Sie Ihre Energieeffizienz mit hochwertigen Solarpanels und Solartechnik von EnCrease." />
       </Helmet>
     </div>
     <ToastContainer />

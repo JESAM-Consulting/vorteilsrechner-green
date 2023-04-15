@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import SliderSolar from "../sliderSolar";
-import Page4 from "../../assets/image/Page4.jpg";
+import Page4 from "../../assets/image/Page4.png";
 import "./solarSaving.scss";
 import performanceData from "./data.json";
 import selfConsumptionData from "./consumption.json";

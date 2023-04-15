@@ -3,12 +3,13 @@ import { toast } from "react-toastify";
 import { ApiGet, ApiPost } from "../../helpers/API/ApiData";
 import SliderSolar from "../sliderSolar";
 import "./contact.scss";
-import SideImg from "../../assets/image/Page5.jpg";
+import SideImg from "../../assets/image/Page5.jpeg";
 import axios from "axios";
 import useOnClickOutside from "../home/hook";
 import { NavLink } from "react-router-dom";
 import { useAtom } from "jotai";
 import { steperArray } from "../../helpers/Atom/StaperAtom";
+import emailjs from '@emailjs/browser';
 
 export default function Contact(props) {
   const { setOpenTab, inputPowerCon, setInputPowerCon, openTab } = props;
@@ -17,7 +18,6 @@ export default function Contact(props) {
 
   const [lodertrue, setLoader] = useState(false);
   let time = ["Morgens", "Mittags", "Nachmittags", "Abends", "Den ganzen Tag"];
-
   const popupRef = useRef();
   useOnClickOutside(popupRef, () => setDropdownHidden1(false));
 
@@ -149,7 +149,8 @@ export default function Contact(props) {
   //   }
   // };
 
-  const handleSubmit = async () => {
+  const handleSubmit = async (e) => {
+    e.preventDefault();
     window.scrollTo({
       top: 0,
       left: 0,
@@ -166,7 +167,7 @@ export default function Contact(props) {
         location: inputPowerCon.location,
         eConsumption: inputPowerCon.eConsumption,
         time: inputPowerCon.time,
-        Lnews: inputPowerCon.Lnews,
+        // Lnews: inputPowerCon.Lnews,
         Monthlyprice: inputPowerCon?.Monthlyprice,
         agreement: inputPowerCon.agreement,
         areaofRoof: inputPowerCon.areaofRoof,
@@ -202,7 +203,7 @@ export default function Contact(props) {
         //       terms: inputPowerCon.terms ? inputPowerCon.terms : false,
         //       total20yearSavings: inputPowerCon.total20yearSavings,
       };
-
+      EmailSendar(data)
       await ApiPost(`userForm/create`, data)
         .then((res) => {
           console.log("res", res);
@@ -232,6 +233,17 @@ export default function Contact(props) {
       // });
     }
   };
+  const EmailSendar = (form) => {
+    // const formElement = e.target.closest('form');
+    console.log("form", form);
+    emailjs.send('service_ia41r3s', 'template_2i9lkff', form, 'VizsHdw5j9dG28YzA')
+      .then((result) => {
+        console.log("Pass");
+      }, (error) => {
+        console.log("Fail");
+      });
+  }
+
 
   const handleSetMember = (item) => {
     setInputPowerCon({ ...inputPowerCon, ["time"]: item });
@@ -251,7 +263,7 @@ export default function Contact(props) {
               <h1>Kontakt</h1>
             </div>
 
-            <div className="contact-content-form-alignment">
+            <div className="contact-content-form-alignment">\
               <div className="contact-content-form-grid">
                 <div className="contact-form-details-alignment">
                   <div className="input">
@@ -459,7 +471,7 @@ export default function Contact(props) {
                     ""
                   )}
 
-                  <div className="conatct-checkbox-alignment">
+                  {/* <div className="conatct-checkbox-alignment">
                     <div className="check-box-alignment contact-alignment">
                       <div>
                         <input type="checkbox" value="Lnews" checked={inputPowerCon?.Lnews} onChange={(e) => onInputChang(e)} id="check2" />
@@ -467,7 +479,7 @@ export default function Contact(props) {
                       </div>
                       <p>Ja, ich mõchte gern den Newsletter abonnieren, um über aktuelle Produkte und Leistungen informiert zu werden.</p>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="conatct-checkbox-alignment">
                     <div className="check-box-alignment contact-alignment">
                       <div>
@@ -499,8 +511,7 @@ export default function Contact(props) {
                       </div>
                       <div>
                         <p>
-                          lch habe die   <NavLink to="/datenschutzerklaerung"><b>AGB</b></NavLink> und <NavLink to="/datenschutzerklaerung"><b>Datenschutzbestimmungen</b></NavLink> gelesen und akzeptiert.
-                          Es gelten die <NavLink to="/datenschutzerklaerung"><b>Datenschutzbedingungen</b></NavLink> der Energiekonzepte Deutschland GmbH. *
+                          lch habe die AGB und Datenschutzbestimmungen gelesen und akzeptiert. Es gelten die Datenschutzbedingungen der Encrease Energy GmbH. *
                         </p>
                         <div className="error-alignment">
                           <span>{errors?.terms}</span>
@@ -521,11 +532,8 @@ export default function Contact(props) {
                   >
                     Zurück
                   </button>
-                  <button
-                    onClick={() => {
-                      // handleSubmit();
-                      handleSubmit();
-                    }}
+                  <button type="submit"
+                    onClick={handleSubmit}
                   >
                     Anfrage senden
                   </button>
@@ -536,7 +544,7 @@ export default function Contact(props) {
         </div>
         <div className="grid-items">
           <div className="main-image-style">
-            <img src="https://images.unsplash.com/photo-1511376979163-f804dff7ad7b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" />
+            <img src={SideImg} />
             <SliderSolar />
           </div>
         </div>
@@ -553,25 +561,3 @@ export default function Contact(props) {
     </div>
   );
 }
-
-
-// salutation
-// firstname - surname => 2 in 1
-// street
-//owner
-//isLiveInOwnProperty
-// interestfunding
-// typeofbuilding
-// typeroofcovering
-// typeheating
-// remarks
-
-
-// DONE
-// location = location
-// phone = phone
-// email = mail
-// powerconsuption = eConsumption
-// reachability = time
-// roofshape = rooftype
-// postcode = pincode
